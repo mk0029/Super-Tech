@@ -262,9 +262,6 @@
   }
 }
 @media (min-width: 576px) {
-  .translate_x {
-    transform: translateX(7%);
-  }
   .Nav_logo {
     width: 255px !important;
   }
@@ -293,6 +290,9 @@
   }
   .w_lg_100 {
     width: 100%;
+  }
+  .translate_x {
+    transform: translateX(7%);
   }
   #Contact .orange_bg_box1::after {
     content: "";
