@@ -1,0 +1,48 @@
+.bg_services_hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.min_vh_40 {
+  min-height: 40vh;
+}
+.maxWidth_780{
+    max-width: 780px;
+}
+.lh_130{
+    line-height: 130%;
+}
+.lh_150{
+    line-height: 150%;
+}
+.lh_120{
+    line-height: 120%;
+}
+.pad_21_20{
+    padding: 21px 20px ;
+}
+.bg_F2{
+    background-color: #F2F2F2;
+}
+.br_20{
+    border-radius: 20px;
+}
+.br_10{
+    border-radius: 10px;
+}
+.object_fitCover{
+    object-fit: cover;
+}
+.pb_6{
+    padding-bottom: 6px;
+}
+.straightLine{
+    height: 1px;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+@media (min-width: 1200px) {
+  .min_vh_60 {
+    min-height: 60vh !important;
+  }
+}
