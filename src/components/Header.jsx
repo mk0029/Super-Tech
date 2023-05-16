@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
+import Home from "./../Pagejs/Home";
 
 function Header() {
   const [navShow, setNavShow] = useState(false);
@@ -12,20 +13,20 @@ function Header() {
 
   return (
     <>
-      {" "}
       <section
         className=" bg-black navBar "
         data-aos="fade-down"
         data-aos-easing="ease-out"
-        data-aos-duration="2000">
+        data-aos-duration="2000"
+      >
         <div className="  m-0 m-sm-auto">
-          {" "}
           <nav className="pt-3 nav_bg">
             <div className=" container px-2 px-sm-0 z_index_123">
               <div
                 data-aos="fade-down"
                 data-aos-delay="500"
-                className=" d-flex justify-content-between align-items-center w-100 ">
+                className=" d-flex justify-content-between align-items-center w-100 "
+              >
                 <li className="d-xl-none  ">
                   <a className="text-white ff_gilroy fs_sm w-75" href="#">
                     Logo
@@ -35,8 +36,9 @@ function Header() {
                   <li>
                     <a
                       className="text-white ff_gilroy fs_sm d-none d-xl-flex"
-                      href="#">
-                      <span>lorem</span>
+                      href="#"
+                    >
+                      Home
                     </a>
                   </li>
                   <li className="z_index_123">
@@ -44,7 +46,8 @@ function Header() {
                       <Dropdown.Toggle
                         variant="success"
                         id="dropdown-basic"
-                        className="dropdoentoggle">
+                        className="dropdoentoggle"
+                      >
                         WordPress Solution
                       </Dropdown.Toggle>
 
@@ -57,11 +60,20 @@ function Header() {
                         </Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
+                  </li>{" "}
+                  <li>
+                    <a
+                      className="text-white ff_gilroy fs_sm d-none d-xl-flex"
+                      href="#"
+                    >
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
                 <label
                   className="menu_formatting d-flex  justify-content-end d-xl-none"
-                  for="check">
+                  for="check"
+                >
                   <input
                     onClick={() => setNavShow(!navShow)}
                     className="menu bg-black "
@@ -78,7 +90,7 @@ function Header() {
                 <div className={` ${navShow ? "nav-fix " : "fix-navbar"}`}>
                   <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center list-unstyled gap-3 gap-md-4 pt-3 transition">
                     <div className="d-flex flex-column gap-3 gap-md-4 d-lg-none align-items-center">
-                      {" "}
+                    
                       <li className="z_index_123">
                         <Dropdown className="text-white ff_gilroy fs_sm ">
                           <Dropdown.Toggle
