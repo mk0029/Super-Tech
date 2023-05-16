@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Logo from "../assets/img/svg/Logo.svg";
-import glob from "../assets/img/svg/glob.svg";
+import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
-import "react-dropdown/style.css";
+
 function Header() {
   const [navShow, setNavShow] = useState(false);
   if (navShow) {
@@ -37,7 +36,7 @@ function Header() {
                     <a
                       className="text-white ff_gilroy fs_sm d-none d-xl-flex"
                       href="#">
-                      <img src={Logo} alt="/" />
+                      <span>lorem</span>
                     </a>
                   </li>
                   <li className="z_index_123">
@@ -51,84 +50,10 @@ function Header() {
 
                       <Dropdown.Menu>
                         <Dropdown.Item href="#/action-1">
-                          WordPress Solution 1
+                          <Link to="/">Home</Link>
                         </Dropdown.Item>
                         <Dropdown.Item href="#/action-2">
-                          WordPress Solution 2
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </li>
-                  <li className="z_index_123">
-                    <Dropdown className="text-white ff_gilroy fs_sm ">
-                      <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Services
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">
-                          Services1
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Services 2
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </li>
-                  <li className="z_index_123">
-                    <a className="text-white ff_gilroy fs_sm" href="#">
-                      Portfolio
-                    </a>
-                  </li>
-                  <li className="z_index_123">
-                    <Dropdown className="text-white ff_gilroy fs_sm ">
-                      <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        About
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">
-                          Services1
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Services 2
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </li>
-                  <li className="z_index_123">
-                    <a className="text-white ff_gilroy fs_sm" href="#">
-                      Blog
-                    </a>
-                  </li>
-                </ul>
-                <ul className="d-flex gap-xxl-3 gap-2 z_index_123  py-3  d-none d-xl-flex align-items-center mb-0 justify-content-end">
-                  <li className="z_index_123">
-                    <a className="text-white ff_gilroy fs_sm" href="#">
-                      1 888 266-6917 (eu?)
-                    </a>
-                  </li>
-
-                  <span className="text-white ff_gilroy fs_md bg_purpel cursor_pointer  btn_nav d-inline-block ms-2 ">
-                    Contact Us
-                  </span>
-
-                  <li className="z_index_123">
-                    <Dropdown className="text-white ff_gilroy me-2 ">
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="fs_md">
-                        <img className="me-1 w_glob" src={glob} alt="glob" />{" "}
-                        <span className=" ff_gilroy fs_sm fw-normal"> Eng</span>
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">
-                          Services1
-                        </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
-                          Services 2
+                          <Link to="/Services">Services</Link>
                         </Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
@@ -149,7 +74,7 @@ function Header() {
                   {/* <span className="span_nav3"></span> */}
                 </label>
               </div>
-              <div className="d-xl-none d-flex justify-content-between ">
+              {/* <div className="d-xl-none d-flex justify-content-between ">
                 <div className={` ${navShow ? "nav-fix " : "fix-navbar"}`}>
                   <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center list-unstyled gap-3 gap-md-4 pt-3 transition">
                     <div className="d-flex flex-column gap-3 gap-md-4 d-lg-none align-items-center">
@@ -245,7 +170,7 @@ function Header() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
