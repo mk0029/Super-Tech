@@ -19,6 +19,7 @@
   --fs-xl: 20px;
   --fs-2x2l: 22px;
   --fs-2x8l: 28px;
+  --fs-4x4l: 44px;
   --fs-5x2l: 52px;
   --fs-6x4l: 64px;
   /* */
@@ -46,6 +47,9 @@
 }
 .fs_2x8l {
   font-size: var(--fs-2x8l);
+}
+.fs_4x4l {
+  font-size: var(--fs-4x4l);
 }
 .fs_5x2l {
   font-size: var(--fs-5x2l);
@@ -95,6 +99,16 @@
 .z_index3 {
   z-index: 3;
 }
+
+/*  */
+#Ourservices .Ourservices_Boxes {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#Ourservices .Ourservices_Boxes:hover span svg rect {
+  fill: rgba(35, 61, 197, 0.05);
+}
+/*  */
 @media (min-width: 576px) {
   :root {
     --fs-sm: 16px;
