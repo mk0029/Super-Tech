@@ -8,7 +8,7 @@ function Home() {
     <div>
       <Header />
       <ItProfesnols />
-      <Ourservices />
+      {/* <Ourservices /> */}
     </div>
   );
 }
