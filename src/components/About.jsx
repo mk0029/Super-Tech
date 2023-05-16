@@ -10,8 +10,7 @@ function About() {
           <div className="col-lg-6 mt-4 mt-lg-0">
             <div
               style={{ background: "#F2F2F2", borderRadius: "20px" }}
-              className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 mx-auto"
-            >
+              className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 mx-auto ">
               <img
                 className="position-absolute it_img_bottom"
                 src={aboutSmall}
@@ -24,7 +23,7 @@ function About() {
           <div className="col-lg-6 mt-4 mt-lg-0">
             <div className="ps-lg-4">
               <p className="ff_jakarta fw-semibold fs_xl text_blue">About Us</p>
-              <h2 className=" ff_jakarta fw-semibold fs_4x4l text_black ">
+              <h2 className=" text-capitalize ff_jakarta fw-semibold fs_4x4l text_black ">
                 professional IT <span className="d-lg-block"> consulting</span>
               </h2>
               <p className=" ff_jakarta fw-normal fs_sm text_black opacity08">

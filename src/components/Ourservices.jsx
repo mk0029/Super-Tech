@@ -19,16 +19,16 @@ function Ourservices() {
               {ourServisesBox.map((data) => {
                 return (
                   <div className="col-xl-3 col-lg-4 col-sm-6  mb-3 ">
-                    <div className="text-center bg-white px-3  py-4 my-3 Ourservices_Boxes h-100">
-                      <span className=" d-inline-block pb-2 mb-1">
+                    <div className="text-center bg-white px-3  py-4 my-3 Ourservices_Boxes h-100 transition300">
+                      <span className=" d-inline-block pb-2 mb-1 transition300">
                         {data.svgImage}
                       </span>
-                      <h3 className=" ff_jakarta fs_md fw-semibold text_black opacity08">
+                      <h3 className=" ff_jakarta fs_md fw-semibold text_black opacity08 transition300">
                         {data.Heading}
                       </h3>
                       <p
                         style={{ maxLines: "230px" }}
-                        className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0">
+                        className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0 transition300">
                         {data.peragraph}
                       </p>
                     </div>

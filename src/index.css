@@ -19,12 +19,9 @@
   --fs-xl: 20px;
   --fs-2x2l: 22px;
   --fs-2x8l: 28px;
-<<<<<<< HEAD
   --fs-4x4l: 44px;
   --fs-5x2l: 52px;
-=======
-  --fs-5x2l: 28px;
->>>>>>> 36ddcc213b4e38c878b334401d395a66245c277b
+
   --fs-6x4l: 64px;
   /* */
   --text-black: #000103;
@@ -110,7 +107,15 @@
   border-radius: 10px;
 }
 #Ourservices .Ourservices_Boxes:hover span svg rect {
-  fill: rgba(35, 61, 197, 0.05);
+  fill: white;
+}
+#Ourservices .Ourservices_Boxes:hover {
+  background-color: #000103c2 !important;
+  box-shadow: 0 0 20.64px 0.88px rgba(0, 0, 0, 0.8);
+}
+#Ourservices .Ourservices_Boxes:hover h3,
+#Ourservices .Ourservices_Boxes:hover p {
+  color: white;
 }
 /*  */
 @media (min-width: 576px) {
