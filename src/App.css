@@ -9,6 +9,9 @@
   background-color: white;
 } */
 
+.Nav_logo {
+  width: 160px !important;
+}
 .nav_btn {
   background: #ec6a15;
   border-radius: 5px;
@@ -44,18 +47,18 @@
 }
 
 .falseline1 {
-  width: 100%;
-  height: 2px;
-  background: #000103 !important;
+  width: 80%;
+  height: 4px;
+  background: #ffffff !important;
   transition: all 0.4s ease-in-out;
-  transform: skewY(44deg) translate(5%, 0%);
+  transform: skewY(44deg) translate(10%, 16%);
 }
 .falseline3 {
-  width: 100%;
-  height: 2px;
-  background: #000103 !important;
+  width: 80%;
+  height: 4px;
+  background: #ffffff !important;
   transition: all 0.4s ease-in-out;
-  transform: skewY(-44deg) translate(0%, 16%);
+  transform: skewY(-44deg) translate(5%, 16%);
 }
 
 .shownav {
@@ -140,4 +143,97 @@
 }
 #Header .dropdown-item {
   color: white !important;
+}
+/* Hero-sec */
+.Bg_shadow {
+  background: #013968;
+  filter: blur(150px);
+  width: 350px;
+  height: 350px;
+}
+
+.left_bottom_img {
+  left: 3.57%;
+  right: 84.1%;
+  bottom: 0.03%;
+  width: 285px;
+  height: 280px;
+}
+.w_75 {
+  width: 75% !important;
+}
+/* Contact */
+
+#Contact input {
+  outline: none;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px !important;
+}
+#Contact textarea {
+  outline: none;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px !important;
+  height: 55px;
+}
+#Contact .submit_btn {
+  background: #ec6a15;
+  border-radius: 5px;
+  padding: 14px 0;
+  margin-top: 15px;
+}
+#Contact .orange_bg_box1::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  height: 50%;
+  background: #ec6a15;
+  border-radius: 15px 0px 0px 0px;
+  z-index: -1;
+}
+#Contact .orange_bg_box2::before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  right: 15px;
+  width: 50%;
+  height: 50%;
+  background: #ec6a15;
+  border-radius: 0px 0px 15px 0px;
+  z-index: -1;
+}
+
+/* break-point*/
+@media (max-width: 576px) {
+}
+@media (min-width: 576px) {
+  .translate_x {
+    transform: translateX(7%);
+  }
+  .Nav_logo {
+    width: 255px !important;
+  }
+  #Contact .orange_bg_box1::after {
+    width: 309.67px;
+    height: 309.67px;
+  }
+  #Contact .orange_bg_box2::before {
+    width: 309.67px;
+    height: 309.67px;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  #Contact .submit_btn {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #Contact .submit_btn {
+    margin-top: 40px;
+  }
 }

@@ -30,7 +30,7 @@ function Header() {
                 className="d-flex justify-content-between align-items-center w-100 "
               >
                 <a className="text-white fs_sm" href="#">
-                  <img src={logo} alt="img" />
+                  <img className="Nav_logo" src={logo} alt="img" />
                 </a>
 
                 <ul className="d-flex gap-lg-4 gap-2  py-3  d-none d-lg-flex align-items-center mb-0 justify-content-end ps-0">
@@ -94,8 +94,8 @@ function Header() {
                   style={{ zIndex: "1000" }}
                   className={
                     navShow
-                      ? "threeline d-lg-none cursor_pointer my-2"
-                      : "threeline d-lg-none cursor_pointer my-2"
+                      ? "threeline d-lg-none cursor_pointer"
+                      : "threeline d-lg-none cursor_pointer"
                   }
                   onClick={() => setNavShow(!navShow)}
                 >
