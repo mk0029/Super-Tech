@@ -14,13 +14,17 @@
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --fs-sm: 16px;
+  --fs-sm: 14px;
   --fs-md: 18px;
   --fs-xl: 20px;
   --fs-2x2l: 22px;
   --fs-2x8l: 28px;
+<<<<<<< HEAD
   --fs-4x4l: 44px;
   --fs-5x2l: 52px;
+=======
+  --fs-5x2l: 28px;
+>>>>>>> 36ddcc213b4e38c878b334401d395a66245c277b
   --fs-6x4l: 64px;
   /* */
   --text-black: #000103;
@@ -135,14 +139,13 @@
 }
 @media (min-width: 992px) {
   :root {
-    --fs-sm: 16px;
+    --fs-sm: 14px;
     --fs-md: 18px;
     --fs-xl: 20px;
     --fs-2x2l: 22px;
     --fs-2x8l: 28px;
-    --fs-5x2l: 52px;
+    --fs-5x2l: 46px;
     --fs-6x4l: 64px;
-    /* */
   }
 }
 @media (min-width: 1200px) {
