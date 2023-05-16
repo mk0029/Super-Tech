@@ -33,7 +33,7 @@ function Header() {
                   <img className="Nav_logo" src={logo} alt="img" />
                 </a>
 
-                <ul className="d-flex gap-lg-4 gap-2  py-3  d-none d-lg-flex align-items-center mb-0 justify-content-end ps-0">
+                <ul className="d-flex gap-lg-4 gap-2 py-3 d-none d-lg-flex align-items-center mb-0 justify-content-end ps-0">
                   <li>
                     <a
                       className="text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative"
