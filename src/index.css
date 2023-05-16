@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+.ff_jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.ff_Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
 :root {
   --fs-sm: 16px;
   --fs-md: 18px;

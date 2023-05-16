@@ -49,10 +49,10 @@ function Header() {
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">
+                        <Dropdown.Item>
                           <Link to="/">Home</Link>
                         </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
+                        <Dropdown.Item>
                           <Link to="/Services">Services</Link>
                         </Dropdown.Item>
                       </Dropdown.Menu>
