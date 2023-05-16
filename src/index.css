@@ -14,7 +14,7 @@
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --fs-sm: 16px;
+  --fs-sm: 14px;
   --fs-md: 18px;
   --fs-xl: 20px;
   --fs-2x2l: 22px;
@@ -121,14 +121,13 @@
 }
 @media (min-width: 992px) {
   :root {
-    --fs-sm: 16px;
+    --fs-sm: 14px;
     --fs-md: 18px;
     --fs-xl: 20px;
     --fs-2x2l: 22px;
     --fs-2x8l: 28px;
     --fs-5x2l: 46px;
     --fs-6x4l: 64px;
-    /* */
   }
 }
 @media (min-width: 1200px) {

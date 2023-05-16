@@ -22,7 +22,7 @@ function Contact() {
                   <div className="d-flex flex-column w-50">
                     <label for="fname">First Name*</label>
                     <input
-                      className="mt-1 py-3 px-2"
+                      className="mt-1 py-sm-3 py-1 px-2"
                       type="text"
                       id="fname"
                       name="fname"
@@ -31,7 +31,7 @@ function Contact() {
                   <div className="d-flex flex-column w-50">
                     <label for="lname">Last Name*</label>
                     <input
-                      className="mt-1 py-3 px-2"
+                      className="mt-1 py-sm-3 py-1 px-2"
                       type="text"
                       id="lname"
                       name="lname"
@@ -41,7 +41,7 @@ function Contact() {
                 <div className="d-flex flex-column mt-3">
                   <label for="lname">Email</label>
                   <input
-                    className="mt-1 py-3 px-2"
+                    className="mt-1 py-sm-3 py-1 px-2"
                     type="text"
                     id="lname"
                     name="lname"
@@ -50,7 +50,7 @@ function Contact() {
                 <div className="d-flex flex-column mt-3">
                   <label for="lname">Company Name</label>
                   <input
-                    className="mt-1 py-3 px-2"
+                    className="mt-1 py-sm-3 py-1 px-2"
                     type="text"
                     id="lname"
                     name="lname"

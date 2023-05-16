@@ -1,20 +1,33 @@
 import React from "react";
+import aboutImg from "../assets/img/webp/IT.webp";
+import aboutSmall from "../assets/img/svg/about-small.svg";
 
 function About() {
   return (
-    <section>
+    <section className="py-4 py-lg-5 overflow-hidden">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            <div>
-              <img src={aboutImg} alt="img" />
+        <div className="row flex-column-reverse flex-lg-row">
+          <div className="col-lg-6 mt-4 mt-lg-0">
+            <div
+              style={{ background: "#F2F2F2", borderRadius: "20px" }}
+              className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 mx-auto"
+            >
+              <img
+                className="position-absolute it_img_bottom"
+                src={aboutSmall}
+                alt="img"
+              />
+              <img className="w-100" src={aboutImg} alt="img" />
             </div>
           </div>
-          <div className="col-lg-6">
-            <div>
-              <p>About Us</p>
-              <h2>professional IT consulting</h2>
-              <p>
+
+          <div className="col-lg-6 mt-4 mt-lg-0">
+            <div className="ps-lg-4">
+              <p className="ff_jakarta fw-semibold fs_xl text_blue">About Us</p>
+              <h2 className=" ff_jakarta fw-semibold fs_4x4l text_black ">
+                professional IT <span className="d-lg-block"> consulting</span>
+              </h2>
+              <p className=" ff_jakarta fw-normal fs_sm text_black opacity08">
                 Supertech IT Consulting leverages decades of experience working
                 with a variety of businesses. We listen, learn, analyze and
                 solve your business IT requirements. We take the time to get to

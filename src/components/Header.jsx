@@ -43,24 +43,24 @@ function Header() {
                     </a>
                   </li>
                   <li className="z_index_123">
-                    <Dropdown className="text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative py-0">
-                      <Dropdown.Toggle
-                        variant="success"
-                        id="dropdown-basic"
-                        className="dropdoentoggle"
-                      >
-                        Our Services
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu>
-                        <Dropdown.Item>
-                          <Link to="/">Home</Link>
-                        </Dropdown.Item>
-                        <Dropdown.Item>
-                          <Link to="/Services">Services</Link>
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
+                    <div className="d-flex justify-content-center align-items-center h-100">
+                      <div className="DropeDown-Parant position-relative">
+                        <h2 className=" Text-DIsplay-Main ff_jakarta fw-normal fs_sm text-white mb-0">
+                          Our Services
+                        </h2>
+                        <div
+                          style={{ background: "#1B1B1B" }}
+                          className=" position-absolute d-flex flex-column gap-2 w-100 DropDown-Child-Hide p-4"
+                        >
+                          <div className="DropeDown-Child-1 DropeDown-ChildAction-Hover DropeDown-Child  ">
+                            <span className="ff_jakarta fw-normal fs_sm text-white ">
+                              {" "}
+                              Security
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                   <li>
                     <a
