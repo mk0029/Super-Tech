@@ -19,7 +19,9 @@
   --fs-xl: 20px;
   --fs-2x2l: 22px;
   --fs-2x8l: 28px;
-  --fs-5x2l: 28px;
+  --fs-4x4l: 44px;
+  --fs-5x2l: 52px;
+
   --fs-6x4l: 64px;
   /* */
   --text-black: #000103;
@@ -46,6 +48,9 @@
 }
 .fs_2x8l {
   font-size: var(--fs-2x8l);
+}
+.fs_4x4l {
+  font-size: var(--fs-4x4l);
 }
 .fs_5x2l {
   font-size: var(--fs-5x2l);
@@ -95,6 +100,24 @@
 .z_index3 {
   z-index: 3;
 }
+
+/*  */
+#Ourservices .Ourservices_Boxes {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#Ourservices .Ourservices_Boxes:hover span svg rect {
+  fill: white;
+}
+#Ourservices .Ourservices_Boxes:hover {
+  background-color: #000103c2 !important;
+  box-shadow: 0 0 20.64px 0.88px rgba(0, 0, 0, 0.8);
+}
+#Ourservices .Ourservices_Boxes:hover h3,
+#Ourservices .Ourservices_Boxes:hover p {
+  color: white;
+}
+/*  */
 @media (min-width: 576px) {
   :root {
     --fs-sm: 16px;

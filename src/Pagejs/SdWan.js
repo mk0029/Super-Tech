@@ -6,7 +6,7 @@ import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
 
-function Services() {
+function SdWan() {
   const Heading = "Security";
   const sectionHeading = "IT Security Is Essential";
   const secPara =
@@ -36,4 +36,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default SdWan;

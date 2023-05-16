@@ -1,4 +1,3 @@
-import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
@@ -6,7 +5,7 @@ import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
 
-function Services() {
+function Conectivite() {
   const Heading = "Security";
   const sectionHeading = "IT Security Is Essential";
   const secPara =
@@ -36,4 +35,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Conectivite;
