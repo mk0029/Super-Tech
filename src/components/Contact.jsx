@@ -9,7 +9,7 @@ function Contact() {
           {" "}
           <div className="col-lg-6">
             <div className=" position-relative orange_bg_box1 orange_bg_box2">
-              <img className="w-100 p-2 pe-4" src={contact} alt="img" />
+              <img className="w-100 p-2 pe-lg-4" src={contact} alt="img" />
             </div>
           </div>
           <div className="col-lg-6 mt-sm-5 mt-4 mt-lg-0">

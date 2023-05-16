@@ -246,8 +246,8 @@
 #Contact .orange_bg_box2::before {
   content: "";
   position: absolute;
-  bottom: 0%;
-  right: 15px;
+  bottom: 0;
+  right: 0;
   width: 50%;
   height: 50%;
   background: #ec6a15;
@@ -293,6 +293,28 @@
   }
   .w_lg_100 {
     width: 100%;
+  }
+  #Contact .orange_bg_box1::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 50%;
+    background: #ec6a15;
+    border-radius: 15px 0px 0px 0px;
+    z-index: -1;
+  }
+  #Contact .orange_bg_box2::before {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 15px;
+    width: 50%;
+    height: 50%;
+    background: #ec6a15;
+    border-radius: 0px 0px 15px 0px;
+    z-index: -1;
   }
 }
 @media (min-width: 1200px) {
