@@ -2,8 +2,8 @@ import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import UCaaSBg from "../assets/img/webp/UCaasHero.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import UCaasImg1 from "../assets/img/webp/UcaasSection1.webp";
+import UCaasImg2 from "../assets/img/webp/UcaasSection2.webp";
 import Footer from "../components/Footer";
 
 function UCaaS() {
@@ -28,8 +28,8 @@ function UCaaS() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={UCaasImg1}
+        partsecondimg={UCaasImg2}
       />
       <Footer />
     </div>

@@ -1,8 +1,8 @@
 import ServicesHero from "../components/ServicesHero";
 import ConnectivityBg from "../assets/img/webp/ConnectivityHero.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import conectivityImg1 from "../assets/img/webp/conectivitySection1.webp";
+import conectivityImg2 from "../assets/img/webp/conectivitySection2.webp";
 import Footer from "../components/Footer";
 
 
@@ -29,8 +29,8 @@ function Conectivite() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={conectivityImg1}
+        partsecondimg={conectivityImg2}
       />
       <Footer />
     </div>

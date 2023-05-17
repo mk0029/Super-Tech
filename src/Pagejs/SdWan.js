@@ -1,8 +1,8 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import softwareImg1 from "../assets/img/webp/softwareSection1.webp";
+import softwareImg2 from "../assets/img/webp/softwareSection2.webp";
 import Footer from "../components/Footer";
 import SoftwareBg from '../assets/img/webp/softwareHero.webp'
 function SdWan() {
@@ -27,8 +27,8 @@ function SdWan() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={softwareImg1}
+        partsecondimg={softwareImg2}
       />
       <Footer />
     </div>
