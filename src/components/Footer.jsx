@@ -8,7 +8,12 @@ const Footer = () => {
       <footer className="bg_black pt-lg-5" id="footer">
         <Container className="py-5">
           <Row className="justify-content-between">
-            <Col xl={3} lg={4} sm={6}>
+            <Col
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              xl={3}
+              lg={4}
+              sm={6}>
               <a href="#">
                 {" "}
                 <img src={FooterLogo} alt="img" />
@@ -19,7 +24,12 @@ const Footer = () => {
             </Col>
             <Col xl={7} lg={8} xs={12}>
               <Row className=" pt-lg-0 pt-4">
-                <Col sm={3} xs={6} className="d-flex justify-content-lg-center">
+                <Col
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  sm={3}
+                  xs={6}
+                  className="d-flex justify-content-lg-center">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Main
@@ -28,57 +38,54 @@ const Footer = () => {
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Home
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           About us
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Contact us
                         </a>
                       </li>
                     </ul>
-                  <div className="d-sm-none">
-                    <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
-                      Legal
-                    </h3>
-                    <ul className="ps-0">
-                      <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
-                          Terms and Conditions{" "}
-                        </a>
-                      </li>
-                      <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
-                          Privacy Policy
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                    <div className="d-sm-none">
+                      <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
+                        Legal
+                      </h3>
+                      <ul className="ps-0">
+                        <li className="pb_6">
+                          <a
+                            className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
+                            href="#">
+                            Terms and Conditions{" "}
+                          </a>
+                        </li>
+                        <li className="pb_6">
+                          <a
+                            className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
+                            href="#">
+                            Privacy Policy
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </Col>
                 <Col
-                  sm={4} xs={6}
-                  className="d-flex justify-content-lg-end justify-content-sm-center"
-                >
+                  data-aos="zoom-in"
+                  data-aos-duration="2500"
+                  sm={4}
+                  xs={6}
+                  className="d-flex justify-content-lg-end justify-content-sm-center">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Our Services
@@ -87,63 +94,60 @@ const Footer = () => {
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Security
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Cloud Services
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           SD-WAN
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           CCaaS
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           UCaaS
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Connectivity
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Colocation
                         </a>
                       </li>
                     </ul>
                   </div>
                 </Col>
-                <Col sm={5} className="d-sm-flex justify-content-sm-end d-none">
+                <Col
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                  sm={5}
+                  className="d-sm-flex justify-content-sm-end d-none">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Legal
@@ -152,16 +156,14 @@ const Footer = () => {
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Terms and Conditions{" "}
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#"
-                        >
+                          href="#">
                           Privacy Policy
                         </a>
                       </li>

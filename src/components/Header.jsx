@@ -15,8 +15,9 @@ function Header(props) {
   return (
     <>
       <section
+        style={{ background: " rgba(0, 0, 0, .9)" }}
         id="Header"
-        className="bg-black navBar "
+        className=" navBar "
         data-aos="fade-down"
         data-aos-easing="ease-out"
         data-aos-duration="2000">
