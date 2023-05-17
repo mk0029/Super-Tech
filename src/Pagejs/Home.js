@@ -4,6 +4,7 @@ import Ourservices from "../components/Ourservices";
 import Hero from "../components/Hero";
 import Contact from "../components/Contact";
 import About from "../components/About";
+import Choose from "../components/Choose";
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
       <Hero />
       <About />
       <Ourservices />
-
+      <Choose />
       <Contact />
     </div>
   );
