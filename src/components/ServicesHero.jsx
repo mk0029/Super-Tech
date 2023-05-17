@@ -13,7 +13,9 @@ const ServicesHero = (props) => {
         {" "}
         <Header />
         <Container className="flex-grow-1 d-flex justify-content-center align-items-center">
-          <h2 className=" text-white ff_jakarta fs_6x4l fw-bold">
+          <h2
+            style={{ maxWidth: "906px" }}
+            className=" text-center text-white ff_jakarta fs_6x4l fw-bold">
             {props.heroHeading}
           </h2>
         </Container>

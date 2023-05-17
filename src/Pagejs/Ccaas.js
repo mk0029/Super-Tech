@@ -7,16 +7,17 @@ import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
 
 function Ccaas() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "CCaaS";
+  const sectionHeading = "A Platform to Build On";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "Take your CX to the next level. Effective communication drives revenue and capitalizes on a reduced cost structure while integrating with 3rd party applications. This is the way to grow your business with customer experience leading the way..";
+  const firstPartHeading = "Intelligence Creates Opportunity";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "Contact Center as a Service (CCaas) is the premier way to run your business with efficiency while supporting growth and flexibility. It is the way to provide the best customer experience using routing, queuing, responsiveness, analytics, and consistency while utilizing phone, email or chat. This will enhance the CX. You can find your blind spots using a CCaaS product. As your consultant, we can help you find the solution that allows you to engage your customers on a personal level. This is critical with the increased autonomy that businesses are placing on the consumer in their URGENT time of need. If you want improved capability and robust features, CCaaS can help you minimize costs while maximizing revenue.";
+
+  const secondartHeading = "Easy Touchpoints Creates repeat customers";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "CCaaS can improve or enhance your company’s culture. CCaaS can also help improve Customer Service Representatives morale by up to 50% or more as the business is providing tools that can be used for a large call center all the way down to a home office. When a business is utilizing CCaaS, it is telling the customer, we care about you, and you are our priority. There are plenty of options with CCaaS and Supertech IT Consulting can help you find the right fit for your business. We represent a multitude of vendors.";
 
   return (
     <div>

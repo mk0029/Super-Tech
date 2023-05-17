@@ -7,16 +7,16 @@ import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
 
 function Collection() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "Colocation";
+  const sectionHeading = "Stack Management";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "Colocation is turning into a dynamic segment by taking on-premises hardware and moving it to a managed data center that houses your technology stack. Evolving solutions increase colocation capabilities and relevance while reducing costs.";
+  const firstPartHeading = "Eliminate Failure";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "85% of businesses say Colocation has improved their IT reliability. Your IT hardware is housed in a 3rd Party Data Center. It is monitored 24/7. Hardware is kept cool and has onsite security protecting your data. It is scalable and provides continuous uptime with backstops and redundancy to ensure that there is minimal loss or downtime. It seeks to eliminate latency. Your equipment is safe, your data is secure. With Colocation you don’t have to worry about and maintain your technology stack. Depending on where the data center is deployed, the ability to monitor in real time is critical in today’s on-demand environments.";
+  const secondartHeading = "Not One Size Fits All";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "There are companies that specialize in Colocation. Explore your options and decide whether you troubleshoot your IT reliability on your own or use a company that excels at supporting your business so you can focus on core objectives. Colocation provides peace of mind. Being able to only pay for what you need will provide incredible cost savings because management is easier. You want people and businesses to rely on you. We can recommend a solution that reduces risk while increasing performance, enhancing security and is agile. Increase your profitability by moving to a managed colocation company. Supertech IT can help you meet and maintain compliance requirements.";
 
   return (
     <div>
