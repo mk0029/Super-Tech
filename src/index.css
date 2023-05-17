@@ -118,7 +118,23 @@
   color: white;
 }
 /*  */
-
+.nav_btn:hover .Animation_CallIcon {
+  animation: Callicon 0.001s linear 0s infinite alternate;
+}
+@keyframes Callicon {
+  0% {
+    position: relative;
+    transform: translate(-1px, 0) rotate(10deg);
+  }
+  50% {
+    position: relative;
+    transform: translate(-2px, 0) rotate(0deg);
+  }
+  0% {
+    position: relative;
+    transform: translate(-1px, 0) rotate(10deg);
+  }
+}
 /*  */
 @media (min-width: 576px) {
   :root {
