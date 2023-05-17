@@ -8,7 +8,7 @@ function Contact() {
         <div className="row align-items-center">
           {" "}
           <div className="col-lg-6">
-            <div className=" position-relative orange_bg_box1 orange_bg_box2">
+            <div className=" position-relative orange_bg_box1 orange_bg_box2 transition300">
               <img className="w-100 p-2 pe-lg-4" src={contact} alt="img" />
             </div>
           </div>
@@ -20,7 +20,12 @@ function Contact() {
               <form className="mt-xl-5 mt-4" action="">
                 <div className="d-flex gap-sm-3 gap-1">
                   <div className="d-flex flex-column w-50">
-                    <label for="fname">First Name*</label>
+                    <label
+                      className="ff_jakarta fw-normal fs_sm text_black"
+                      for="fname"
+                    >
+                      First Name*
+                    </label>
                     <input
                       className="mt-1 py-sm-3 py-1 px-2"
                       type="text"
@@ -29,7 +34,12 @@ function Contact() {
                     />
                   </div>
                   <div className="d-flex flex-column w-50">
-                    <label for="lname">Last Name*</label>
+                    <label
+                      className="ff_jakarta fw-normal fs_sm text_black"
+                      for="lname"
+                    >
+                      Last Name*
+                    </label>
                     <input
                       className="mt-1 py-sm-3 py-1 px-2"
                       type="text"
@@ -39,31 +49,49 @@ function Contact() {
                   </div>
                 </div>
                 <div className="d-flex flex-column mt-3">
-                  <label for="lname">Email</label>
+                  <label
+                    className="ff_jakarta fw-normal fs_sm text_black"
+                    for="email"
+                  >
+                    Email
+                  </label>
                   <input
                     className="mt-1 py-sm-3 py-1 px-2"
                     type="text"
-                    id="lname"
+                    id="email"
                     name="lname"
                   />
                 </div>
                 <div className="d-flex flex-column mt-3">
-                  <label for="lname">Company Name</label>
+                  <label
+                    className="ff_jakarta fw-normal fs_sm text_black"
+                    for="Company"
+                  >
+                    Company Name
+                  </label>
                   <input
                     className="mt-1 py-sm-3 py-1 px-2"
                     type="text"
-                    id="lname"
+                    id="Company"
                     name="lname"
                   />
                 </div>
-                <label className=" mt-3">Message</label>
+                <label
+                  for="Massage"
+                  className="ff_jakarta fw-normal fs_sm text_black mt-3"
+                >
+                  Message
+                </label>
                 <textarea
                   style={{ resize: "none" }}
-                  className="w-100 mt-1"
-                  name=""
-                  id=""
+                  className="w-100 mt-1 px-2 pt-2"
+                  name="Massage"
+                  id="Massage"
                 ></textarea>
-                <input className="w-100 submit_btn" type="submit" />
+                <input
+                  className="w-100 submit_btn ff_jakarta fw-normal fs_sm text-white"
+                  type="submit"
+                />
               </form>
             </div>
           </div>
