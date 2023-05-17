@@ -18,7 +18,7 @@ function Ourservices() {
             <div className="row justify-content-center">
               {ourServisesBox.map((data) => {
                 return (
-                  <div className="col-xl-3 col-lg-4 col-sm-6  mb-3 ">
+                  <div className="col-xl-3 col-lg-4 col-sm-6  mb-4 ">
                     <div className="text-center bg-white px-3  py-4 my-3 Ourservices_Boxes h-100 transition300">
                       <span className=" d-inline-block pb-2 mb-1 transition300">
                         {data.svgImage}

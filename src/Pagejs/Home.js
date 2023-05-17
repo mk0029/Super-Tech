@@ -13,10 +13,7 @@ function Home() {
       <Hero />
       <About />
       <Ourservices />
-
-      <Routes>
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
+      <Contact />
     </div>
   );
 }

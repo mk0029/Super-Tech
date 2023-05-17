@@ -1,13 +1,16 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from '../assets/img/webp/protection.webp'
+import protectionImg from "../assets/img/webp/protection.webp";
 const ServicesSection = (props) => {
   return (
     <div>
       <section className="pt-1">
         <Container className="py-4">
-          <div className="d-flex flex-column align-items-center py-5 mt-lg-5 mb-lg-4">
+          <div
+            data-aos-duration="2000"
+            data-aos="zoom-in"
+            className="d-flex flex-column align-items-center py-5 mt-lg-5 mb-lg-4">
             <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 ">
               {props.firstHeading}
             </h3>
@@ -16,7 +19,16 @@ const ServicesSection = (props) => {
             </p>
           </div>
           <Row className="align-items-lg-center justify-content-center py-lg-5 ">
-            <Col lg={6} md={8} sm={10} xs={12} className="object_fitCover">
+            <Col
+              data-aos-duration="2000"
+              data-aos="fade-right"
+              lg={6}
+              md={8}
+              sm={10}
+              xs={12}
+              className="object_fitCover"
+              data-aos="zoom-in"
+              data-aos-duration="2000">
               <div className="pad_21_20 bg_F2 br_20 h-100 ">
                 <img
                   className="w-100 br_10 h-100"
@@ -25,7 +37,7 @@ const ServicesSection = (props) => {
                 />
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} data-aos-duration="2000" data-aos="fade-left">
               <div className="ps-lg-5">
                 <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-center">
                   {props.partfirstHeading}
@@ -37,7 +49,11 @@ const ServicesSection = (props) => {
             </Col>
           </Row>
           <Row className="align-items-lg-center justify-content-center py-5 my-lg-5 flex-wrap-reverse">
-            <Col lg={6} className="pt-2">
+            <Col
+              lg={6}
+              className="pt-2"
+              data-aos-duration="2000"
+              data-aos="fade-right">
               <div className="pe-lg-4">
                 <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-center">
                   {props.partsecondHeading}
@@ -48,12 +64,13 @@ const ServicesSection = (props) => {
               </div>
             </Col>
             <Col
+              data-aos-duration="2000"
+              data-aos="fade-left"
               lg={6}
               md={8}
               sm={10}
               xs={12}
-              className="object_fitCover ps-lg-5 pt-2"
-            >
+              className="object_fitCover ps-lg-5 pt-2">
               <div className="pad_21_20 bg_F2 br_20 h-100 ">
                 <img
                   className="w-100 br_10 h-100"
@@ -67,6 +84,6 @@ const ServicesSection = (props) => {
       </section>
     </div>
   );
-}
+};
 
-export default ServicesSection
+export default ServicesSection;

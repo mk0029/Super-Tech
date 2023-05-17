@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./Sanjay.css";
-import Header from "./components/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pagejs/Home";
 import Services from "./Pagejs/Services";
@@ -11,8 +12,12 @@ import Ccaas from "./Pagejs/Ccaas";
 import UCaaS from "./Pagejs/UCaaS";
 import Conectivite from "./Pagejs/Conectivite";
 import Collection from "./Pagejs/Collection";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div>
