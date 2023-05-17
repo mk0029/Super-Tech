@@ -21,7 +21,7 @@ function App() {
   }, []);
   return (
     <>
-      <div>
+      <div className=" overflow-hidden">
         <BackTop />
         <Routes>
           <Route path="/" element={<Home />} />
