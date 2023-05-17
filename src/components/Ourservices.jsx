@@ -25,11 +25,11 @@ function Ourservices() {
                     className="col-xl-3 col-lg-4 col-sm-6  mb-4 "
                     data-aos="zoom-in"
                     data-aos-duration="3000">
-                    <div className="text-center bg-white px-3  py-4 my-3 Ourservices_Boxes h-100 transition300">
+                    <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
                       <span className=" d-inline-block pb-2 mb-1 transition300">
                         {data.svgImage}
                       </span>
-                      <h3 className=" ff_jakarta fs_md fw-semibold text_black opacity08 transition300">
+                      <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
                         {data.Heading}
                       </h3>
                       <p

@@ -142,6 +142,7 @@
     --fs-md: 18px;
     --fs-xl: 20px;
     --fs-2x2l: 22px;
+    --fs-4x4l: 44px;
     --fs-2x8l: 28px;
     --fs-5x2l: 52px;
     --fs-6x4l: 64px;
@@ -153,6 +154,7 @@
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-xl: 20px;
+    --fs-4x4l: 44px;
     --fs-2x2l: 22px;
     --fs-2x8l: 28px;
     --fs-5x2l: 52px;
@@ -164,6 +166,7 @@
   :root {
     --fs-sm: 14px;
     --fs-md: 18px;
+    --fs-4x4l: 44px;
     --fs-xl: 20px;
     --fs-2x2l: 22px;
     --fs-2x8l: 28px;
@@ -176,6 +179,7 @@
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-xl: 20px;
+    --fs-4x4l: 44px;
     --fs-2x2l: 22px;
     --fs-2x8l: 28px;
     --fs-5x2l: 52px;

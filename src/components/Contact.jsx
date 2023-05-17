@@ -34,6 +34,7 @@ function Contact() {
                         First Name*
                       </label>
                       <input
+                        required
                         className="mt-1 py-sm-3 py-1 px-2"
                         type="text"
                         id="fname"
@@ -47,6 +48,7 @@ function Contact() {
                         Last Name*
                       </label>
                       <input
+                        required
                         className="mt-1 py-sm-3 py-1 px-2"
                         type="text"
                         id="lname"
@@ -61,6 +63,7 @@ function Contact() {
                       Email
                     </label>
                     <input
+                      required
                       className="mt-1 py-sm-3 py-1 px-2"
                       type="text"
                       id="email"

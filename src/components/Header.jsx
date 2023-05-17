@@ -35,7 +35,7 @@ function Header(props) {
                   <li>
                     <Link to="/">
                       <span
-                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative ${props.Nav_TAb_Bottom} `}>
+                        className={`  ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative ${props.Nav_TAb_Bottom} `}>
                         Home
                       </span>
                     </Link>
@@ -60,25 +60,39 @@ function Header(props) {
                       </button>
                       <div class="dropdown-content transition300 z_index3">
                         <Link to="/Services">
-                          <span className=" d-block ">Services</span>
+                          <span className=" d-block   d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                            Security
+                          </span>
                         </Link>
                         <Link to="/cloude">
-                          <span className=" d-block ">Cloud Services</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            Cloud Services
+                          </span>
                         </Link>
                         <Link to="/SdWan">
-                          <span className=" d-block ">SD-WAN</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            SD-WAN
+                          </span>
                         </Link>
                         <Link to="/CCaaS">
-                          <span className=" d-block ">CCaaS</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            CCaaS
+                          </span>
                         </Link>
                         <Link to="/UCaaS">
-                          <span className=" d-block ">UCaaS</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            UCaaS
+                          </span>
                         </Link>
                         <Link to="/Connectivity">
-                          <span className=" d-block ">Connectivity</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            Connectivity
+                          </span>
                         </Link>
                         <Link to="/Colocation">
-                          <span className=" d-block ">Colocation</span>
+                          <span className=" d-block  d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
+                            Colocation
+                          </span>
                         </Link>
                       </div>
                     </div>
@@ -87,7 +101,9 @@ function Header(props) {
                     <Link
                       to="/"
                       className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative `}>
-                      <a className="text-white fs_sm ">Contact Us</a>
+                      <a className="text-white fs_sm  ff_jakarta ">
+                        Contact Us
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -152,37 +168,51 @@ function Header(props) {
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/Services">
-                            <span className=" d-block ">Services</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              Security
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/cloude">
-                            <span className=" d-block ">Cloud Services</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              Cloud Services
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/SdWan">
-                            <span className=" d-block ">SD-WAN</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              SD-WAN
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/CCaaS">
-                            <span className=" d-block ">CCaaS</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              CCaaS
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/UCaaS">
-                            <span className=" d-block ">UCaaS</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              UCaaS
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/Connectivity">
-                            <span className=" d-block ">Connectivity</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              Connectivity
+                            </span>
                           </Link>
                           <Link
                             onClick={() => setNavShow(!navShow)}
                             to="/Colocation">
-                            <span className=" d-block ">Colocation</span>
+                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                              Colocation
+                            </span>
                           </Link>
                         </div>
                       </div>
