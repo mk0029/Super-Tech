@@ -10,7 +10,10 @@ function Ourservices() {
         {" "}
         <div className=" container">
           <div className="pt-4 pb-5">
-            <h2 className="text-center text_black ff_jakarta fw-semibold fs_4x4l  text-capitalize">
+            <h2
+              className="text-center text_black ff_jakarta fw-semibold fs_4x4l  text-capitalize"
+              data-aos="fade-down"
+              data-aos-duration="3000">
               our services
             </h2>
           </div>
@@ -18,7 +21,10 @@ function Ourservices() {
             <div className="row justify-content-center">
               {ourServisesBox.map((data) => {
                 return (
-                  <div className="col-xl-3 col-lg-4 col-sm-6  mb-3 ">
+                  <div
+                    className="col-xl-3 col-lg-4 col-sm-6  mb-4 "
+                    data-aos="zoom-in"
+                    data-aos-duration="3000">
                     <div className="text-center bg-white px-3  py-4 my-3 Ourservices_Boxes h-100 transition300">
                       <span className=" d-inline-block pb-2 mb-1 transition300">
                         {data.svgImage}
@@ -35,7 +41,10 @@ function Ourservices() {
                   </div>
                 );
               })}
-              <span className=" d-inline-block pt-5 text-center mb-md-3">
+              <span
+                className=" d-inline-block pt-5 text-center mb-md-3"
+                data-aos="fade-up"
+                data-aos-duration="3000">
                 <em className=" ff_jakarta fs_md fw-med text_black opacity08">
                   Make informed IT choices that will benefit your business.
                 </em>

@@ -1,26 +1,25 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import softwareImg1 from "../assets/img/webp/softwareSection1.webp";
+import softwareImg2 from "../assets/img/webp/softwareSection2.webp";
 import Footer from "../components/Footer";
-
+import SoftwareBg from '../assets/img/webp/softwareHero.webp'
 function SdWan() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "Software Defined - Wide Area Network";
+  const sectionHeading = "Improve Everything in a Flash";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "Make life easier with zero-touch deployment, improved application performance and centralized management. Software is driving the innovation engine in the networking world to make it more agOile, flexible, and less expensive.";
+  const firstPartHeading = "Single Pane of Glass";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "Software Defined – Wide Area Networks (SD-WAN) are the evolution for agile, growing businesses. It routes data around faulty connections and congestion. It uses minimal hardware to create a seamless user experience. The network can be managed centrally through a single pane of glass. Connect branch offices to headquarters easily while reducing costs. Create a network for your single location or remote worker’s offices and spaces. Implement security in all communications and data transfers. You can create a dedicated network within the organization using public and private internet.";
+  const secondartHeading = "Front Row Center";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "We can offer managed and unmanaged SD-WAN products which can eliminate expensive hardware and can be deployed rapidly. The shift to cloud-based software requires intelligent and secure ways to connect to users. What took months establishing or upgrading your network can be done in days or weeks. The network is optimized continuously, and updates happen frequently in milli-seconds. It does not require engineers to be onsite managing your network, thus freeing up resources. Your business operates at peak efficiency utilizing an SD-WAN solution. SD-WAN reduces overhead and adds to the bottom line. The migration from expensive private networks to internet-based circuits reduces costs while maintaining interoperability. Improve your business network with tangible results that can immediately be seen upon implementation..";
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={SoftwareBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -28,8 +27,8 @@ function SdWan() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={softwareImg1}
+        partsecondimg={softwareImg2}
       />
       <Footer />
     </div>

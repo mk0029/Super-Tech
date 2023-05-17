@@ -18,11 +18,11 @@
   --fs-md: 18px;
   --fs-xl: 20px;
   --fs-2x2l: 22px;
-  --fs-2x8l: 28px;
-  --fs-4x4l: 38px;
+  --fs-2x8l: 22px;
+  --fs-4x4l: 28px;
   --fs-5x2l: 28px;
 
-  --fs-6x4l: 64px;
+  --fs-6x4l: 40px;
   /* */
   --text-black: #000103;
   --text-orange: #ec6a15;
@@ -116,6 +116,24 @@
 #Ourservices .Ourservices_Boxes:hover h3,
 #Ourservices .Ourservices_Boxes:hover p {
   color: white;
+}
+/*  */
+.nav_btn:hover .Animation_CallIcon {
+  animation: Callicon 0.001s linear 0s infinite alternate;
+}
+@keyframes Callicon {
+  0% {
+    position: relative;
+    transform: translate(-1px, 0) rotate(10deg);
+  }
+  50% {
+    position: relative;
+    transform: translate(-2px, 0) rotate(0deg);
+  }
+  0% {
+    position: relative;
+    transform: translate(-1px, 0) rotate(10deg);
+  }
 }
 /*  */
 @media (min-width: 576px) {

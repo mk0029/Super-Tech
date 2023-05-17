@@ -1,25 +1,27 @@
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
+import ConnectivityBg from "../assets/img/webp/ConnectivityHero.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import conectivityImg1 from "../assets/img/webp/conectivitySection1.webp";
+import conectivityImg2 from "../assets/img/webp/conectivitySection2.webp";
 import Footer from "../components/Footer";
 
+
 function Conectivite() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "Connectivity";
+  const sectionHeading = "A Calculated Torrent Gets Results";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "High speed connectivity enables businesses to operate more efficiently and effectively, and it allows them to reach new customers and markets. It gives you access to a wider range of resources and opportunities.";
+  const firstPartHeading = "Speed, Power and Flow";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "73% of businesses say connectivity is essential. Businesses with high-speed internet connections are 2.5 times more likely to have a competitive advantage. Connectivity increases productivity, provides essential security and is customer-centric because it offers a reliable experience. Increased download speeds allow employees and edge users on the network to receive information faster. Increased upload speeds get your information in the hands of your consumers or colleagues without delay. It takes your service and products to the next level. A strong internet connection mitigates disruption and improves performance across your applications. Faster speeds protect your data. It deploys defensive tactics rapidly. We can give you options that best fit your needs.";
+
+  const secondartHeading = "Increase the Odds to Your Favor";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "When it is time to assess your connectivity, quality and speed utilizing a combination of software services, we will get it right for you. Connectivity is highly competitive in the marketplace. Let usevaluate your needs and find a solution that can be customized as your connectivity and business demands grow. You should explore options from time to time to ensure you are getting the fastest, most reliable connection speeds with the best value.";
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={ConnectivityBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -27,8 +29,8 @@ function Conectivite() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={conectivityImg1}
+        partsecondimg={conectivityImg2}
       />
       <Footer />
     </div>

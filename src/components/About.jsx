@@ -13,11 +13,13 @@ function About() {
       />
       <div className="container py-md-5 my-lg-5">
         <div className="row flex-column-reverse flex-lg-row">
-          <div className="col-lg-6 mt-4 mt-lg-0">
+          <div
+            className="col-lg-6 mt-4 mt-lg-0"
+            data-aos="fade-right"
+            data-aos-duration="3000">
             <div
               style={{ background: "#F2F2F2", borderRadius: "20px" }}
-              className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 w_lg_100 mx-auto "
-            >
+              className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 w_lg_100 mx-auto ">
               <img
                 className="position-absolute it_img_bottom"
                 src={aboutSmall}
@@ -27,13 +29,16 @@ function About() {
             </div>
           </div>
 
-          <div className="col-lg-6 mt-4 mt-lg-0">
+          <div
+            className="col-lg-6 mt-4 mt-lg-0"
+            data-aos="fade-left"
+            data-aos-duration="3000">
             <div className="ps-lg-4 d-flex flex-column justify-content-end h-100">
               <p className="ff_jakarta fw-semibold fs_xl text_blue z_index1">
                 About Us
               </p>
               <h2 className=" text-capitalize ff_jakarta fw-semibold fs_4x4l text_black z_index1">
-                professional IT <span className="d-lg-block"> consulting</span>
+                professional IT <span className="d-xl-block"> consulting</span>
               </h2>
               <p className=" ff_jakarta fw-normal fs_sm text_black opacity08 mb-0">
                 Supertech IT Consulting leverages decades of experience working

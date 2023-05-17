@@ -1,26 +1,26 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
+import UCaaSBg from "../assets/img/webp/UCaasHero.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import UCaasImg1 from "../assets/img/webp/UcaasSection1.webp";
+import UCaasImg2 from "../assets/img/webp/UcaasSection2.webp";
 import Footer from "../components/Footer";
 
 function UCaaS() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "UCaaS";
+  const sectionHeading = "Camaraderie is Contagious";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "Enhance your organizational efficiency and your customer experience with advanced voice, messaging and collaborative communications. UCaaS products offer an opportunity to work from anywhere and can integrate into applications you are already using.";
+  const firstPartHeading = "Teamwork Makes the Dreamwork";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "UCaaS or Unified Communications as a Service has really caught on. Migrating to a UCaaS product that works in the cloud lowers total cost of ownership. It is continually growing and can increase collaboration efforts by 100%. It can also reduce costs by 30% or more. On-premises phone systems are no longer the sole solution. As clients move to the cloud, their approach revolves around optimizing enterprise software investments through integration. Choosing the right partner with native integrations is central to maximizing eﬃciencies and realizing business beneﬁts.";
+  const secondartHeading = "For the People";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "UCaaS can improve your customer’s experience. If you have rapid growth or sustained growth, UCaaS can enhance video conferencing, instant messaging and file sharing. UCaaS provides improved customer experience by using call routing and queuing to address a customer’s needs with tremendous efficiency when using voice, text, or email. It provides analytics to help improve in certain areas of the business. Customer service experience can improve by 20% or more when using Unified Communications as a Service. UCaaS helps employees work remote, hybrid or on-site. It is flexible and easy to scale..";
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={UCaaSBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -28,8 +28,8 @@ function UCaaS() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={UCaasImg1}
+        partsecondimg={UCaasImg2}
       />
       <Footer />
     </div>

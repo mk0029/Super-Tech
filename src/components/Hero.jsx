@@ -8,9 +8,9 @@ function Hero() {
   return (
     <section
       id="Hero"
-      className="bg_black position-relative min-vh-100 d-flex flex-column">
+      className="bg_black position-relative min_vh_100 d-flex flex-column">
       <div>
-        <Header />
+        <Header Nav_TAb_Bottom="Nav_TAb_Bottom" />
       </div>
       <span
         style={{ zIndex: "0" }}
@@ -25,9 +25,12 @@ function Hero() {
         src={rightBottom}
         alt="img"
       />
-      <div className="container d-flex flex-grow-1 position-relative z_index0  pb-5">
+      <div className="container d-flex flex-grow-1 position-relative z_index0 py-5 py-xl-0">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div
+            className="col-lg-6"
+            data-aos="fade-right"
+            data-aos-duration="3000">
             <div className="mt-4 mt-lg-0">
               <h1
                 style={{ lineHeight: "128%" }}
@@ -47,7 +50,10 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 mt-5 mt-lg-0 ">
+          <div
+            className="col-lg-6 mt-5 mt-lg-0 "
+            data-aos="fade-left"
+            data-aos-duration="3000">
             <div className="d-flex justify-content-center">
               <img
                 style={{ zIndex: "1", position: "relative" }}

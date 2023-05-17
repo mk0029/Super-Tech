@@ -6,7 +6,7 @@ function Choose() {
     <>
       <section className="py-5 my-5 overflow-hidden">
         <div className="container">
-          <div className="grid_container">
+          <div className="grid_container me-5">
             <div className="item_1 grid_boxes bg-danger">
               <div style={{ background: "#f7fdf6" }} className="grid_box">
                 <h1 className=" ff_jakarta fw-semibold fs_2x8l text-center">

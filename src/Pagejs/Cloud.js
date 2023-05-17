@@ -2,25 +2,26 @@ import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import cloudImg1 from "../assets/img/webp/cloudSection1.webp";
+import cloudImg2 from "../assets/img/webp/cloudSection2.webp";
 import Footer from "../components/Footer";
+import CloudBg from "../assets/img/webp/cloudHero.webp"
 
 function Cloud() {
-  const Heading = "Security";
-  const sectionHeading = "IT Security Is Essential";
+  const Heading = "Cloud Services ";
+  const sectionHeading = "Genesis, Migration and Hybridization";
   const secPara =
-    "The Cybersecurity landscape is constantly changing at a rapid pace, yet most businesses have the same security posture they had years ago. Today’s threats must be countered with behavior-based tools, in addition to traditional methods. Supertech IT helps businesses develop a future-oriented security strategy and rationalizing a security posture with a sensible budget.";
-  const firstPartHeading = "Organizations Must Implement";
+    "Cloud-based technology is changing the way businesses operate by making them more agile and responsive to market changes, while reducing costs.";
+  const firstPartHeading = "Look Up to the Cloud";
   const firstPartpara =
-    "A Cybersecurity attack occurs every 39 seconds. The average cost of a severe attack is in the millions. A ransomware attack, one of the most common types of attacks are costing businesses on average, upwards of $170,000. For an attack like this, it can be mitigated with a simple, manageable security posture. As a business owner, you can be held personally liable for being vulnerable and exposed. 86% of all security issues begin with human error and are usually at the edge of the network. Half of all businesses have no cybersecurity. With compliance being a critical factor for certain business verticals, creating a budget should be a top priority. A few techniques for protection are to deploy security software, encryption, two factor authentication and zero trust which deems everything inside or outside the network as a threat.";
-  const secondartHeading = "Peace of Mind Through Protection";
+    "Most organizations are strategizing with a hybrid cloud environment, even if only for email. Hybrid cloud solutions mix private and public resources enabling you to retain the choice of where you deploy your applications. It provides the freedom and power to shift workloads as well as capacity with agility to meet application performance objectives, geographic reach into new markets, and on-demand needs. By migrating your assets to the cloud, your business can shift capacity between multiple data centers, globally distributed hosting assets, and public clouds as your needs evolve.";
+  const secondartHeading = "Applications for Evolution";
   const secondPartpara =
-    "There are several companies that offer robust solutions and other Software as a Service companies have integrated their own security into their products. You can build trust and protect your data and your customer’s data with a customized security solution. Businesses today must prepare for cybersecurity incidents because they are imminent and can cause irreparable damage. A balance of defensive and offensive measures is required to keep the organization safe and to detect security breaches as soon as they occur. You have worked hard to create a great reputation with your business, don’t lose it when you don’t have the right security posture.";
+    "Most organizations are strategizing with a hybrid cloud environment, even if only for email. Hybrid cloud solutions mix private and public resources enabling you to retain the choice of where you deploy your applications. It provides the freedom and power to shift workloads as well as capacity with agility to meet application performance objectives, geographic reach into new markets, and on-demand needs. By migrating your assets to the cloud, your business can shift capacity between multiple data centers, globally distributed hosting assets, and public clouds as your needs evolve.";
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={CloudBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -28,8 +29,8 @@ function Cloud() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={cloudImg1}
+        partsecondimg={cloudImg2}
       />
       <Footer />
     </div>
