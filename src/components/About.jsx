@@ -1,11 +1,17 @@
 import React from "react";
 import aboutImg from "../assets/img/webp/IT.webp";
 import aboutSmall from "../assets/img/svg/about-small.svg";
+import vector from "../assets/img/svg/about-vector.svg";
 
 function About() {
   return (
-    <section className="py-4 py-lg-5 my-lg-5 overflow-hidden">
-      <div className="container py-md-5">
+    <section className="py-4 py-lg-5 overflow-hidden position-relative">
+      <img
+        className="position-absolute about_vector_posi d-none d-sm-flex"
+        src={vector}
+        alt="img"
+      />
+      <div className="container py-md-5 my-lg-5">
         <div className="row flex-column-reverse flex-lg-row">
           <div className="col-lg-6 mt-4 mt-lg-0">
             <div
@@ -23,8 +29,10 @@ function About() {
 
           <div className="col-lg-6 mt-4 mt-lg-0">
             <div className="ps-lg-4 d-flex flex-column justify-content-end h-100">
-              <p className="ff_jakarta fw-semibold fs_xl text_blue">About Us</p>
-              <h2 className=" text-capitalize ff_jakarta fw-semibold fs_4x4l text_black ">
+              <p className="ff_jakarta fw-semibold fs_xl text_blue z_index1">
+                About Us
+              </p>
+              <h2 className=" text-capitalize ff_jakarta fw-semibold fs_4x4l text_black z_index1">
                 professional IT <span className="d-lg-block"> consulting</span>
               </h2>
               <p className=" ff_jakarta fw-normal fs_sm text_black opacity08 mb-0">

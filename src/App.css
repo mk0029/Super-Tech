@@ -83,7 +83,7 @@
 }
 .threelinechild {
   width: 100%;
-  height: 2px;
+  height: 4px;
   margin-top: 4px;
   transition: all 0.4s ease-in-out;
   background: #ec6a15 !important;
@@ -211,6 +211,10 @@
   right: -9%;
   width: 110px;
 }
+.about_vector_posi {
+  top: 2%;
+  right: 0;
+}
 /* Contact */
 
 #Contact input {
@@ -218,7 +222,12 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px !important;
+  font-family: Plus Jakarta Sans !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
+
 #Contact textarea {
   outline: none;
   background: #ffffff;
@@ -231,6 +240,13 @@
   border-radius: 5px;
   padding: 14px 0;
   margin-top: 15px;
+  border: 1px solid transparent;
+  transition: all 300ms ease-in-out;
+}
+#Contact .submit_btn:hover {
+  border: 1px solid #ec6a15;
+  background-color: transparent;
+  color: #ec6a15 !important;
 }
 #Contact .orange_bg_box1::after {
   content: "";
@@ -253,6 +269,17 @@
   background: #ec6a15;
   border-radius: 0px 0px 15px 0px;
   z-index: -1;
+}
+#Contact .orange_bg_box1:hover::after {
+  top: 0%;
+  left: calc(50% - 0px);
+  border-radius: 0px 15px 0px 0px;
+}
+
+#Contact .orange_bg_box2:hover::before {
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 0px 0px 15px;
 }
 
 /* break-point*/
@@ -305,6 +332,7 @@
     border-radius: 15px 0px 0px 0px;
     z-index: -1;
   }
+
   #Contact .orange_bg_box2::before {
     content: "";
     position: absolute;
@@ -315,6 +343,11 @@
     background: #ec6a15;
     border-radius: 0px 0px 15px 0px;
     z-index: -1;
+  }
+  #Contact .orange_bg_box1:hover::after {
+    top: 0%;
+    left: calc(50% - 15px);
+    border-radius: 0px 15px 0px 0px;
   }
 }
 @media (min-width: 1200px) {
