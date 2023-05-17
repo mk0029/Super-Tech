@@ -9,12 +9,10 @@ function Hero() {
     <section
       id="Hero"
       className="bg_black position-relative min_vh_100 d-flex flex-column">
-      <div>
+      <div style={{ position: "relative", zIndex: "1213" }}>
         <Header Nav_TAb_Bottom="Nav_TAb_Bottom" />
       </div>
-      <span
-        style={{ zIndex: "0" }}
-        className="Bg_shadow position-absolute end-0 top-50 translate-middle me-xl-5"></span>
+
       <img
         className="position-absolute left_bottom_img"
         src={heroBottom}
@@ -25,7 +23,7 @@ function Hero() {
         src={rightBottom}
         alt="img"
       />
-      <div className="container d-flex flex-grow-1 position-relative z_index0 py-5 py-xl-0">
+      <div className="container d-flex flex-grow-1 position-relative z_index0 pt-0 pt-sm-5 py-5 py-xl-0">
         <div className="row align-items-center">
           <div
             className="col-lg-6"
@@ -44,7 +42,8 @@ function Hero() {
               </p>
 
               <a
-                className="nav_btn fw-semibold fs_sm text-white d-inline-block transition300"
+                style={{ letterSpacing: "1px" }}
+                className="nav_btn fw-normal fs_sm text-white d-inline-block ff_jakarta transition300"
                 href="#">
                 Contact Us
               </a>
@@ -54,10 +53,10 @@ function Hero() {
             className="col-lg-6 mt-5 mt-lg-0 "
             data-aos="fade-left"
             data-aos-duration="3000">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center Bg_shadow position-relative ">
               <img
                 style={{ zIndex: "1", position: "relative" }}
-                className="w_75 w-100 translate_x"
+                className="w_75  w-100 translate_x"
                 src={headerImg}
                 alt="img"
               />

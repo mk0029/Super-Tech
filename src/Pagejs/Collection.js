@@ -5,7 +5,8 @@ import ServicesSection from "../components/ServicesSection";
 import collectionImg1 from "../assets/img/webp/colocationSection1.webp";
 import collectionImg2 from "../assets/img/webp/colocationSection2.webp";
 import Footer from "../components/Footer";
-import ColocationBg from '../assets/img/webp/ColocationHero.webp'
+import ColocationBg from "../assets/img/webp/ColocationHero.webp";
+import Loader from "../components/Loader";
 
 function Collection() {
   const Heading = "Colocation";
@@ -21,6 +22,7 @@ function Collection() {
 
   return (
     <div>
+      <Loader timeOut="1500" />
       <ServicesHero heroHeading={Heading} heroBG={ColocationBg} />
       <ServicesSection
         firstHeading={sectionHeading}

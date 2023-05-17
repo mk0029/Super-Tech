@@ -1,11 +1,11 @@
 import React from "react";
 import aboutImg from "../assets/img/webp/IT.webp";
-import aboutSmall from "../assets/img/svg/about-small.svg";
+import aboutSmall from "../assets/img/png/IT-Counsling-Bottom-Circle.png";
 import vector from "../assets/img/svg/about-vector.svg";
 
 function About() {
   return (
-    <section className="py-4 py-lg-5 overflow-hidden position-relative">
+    <section className="py-4 py-sm-5 overflow-hidden position-relative">
       <img
         className="position-absolute about_vector_posi d-none d-sm-flex"
         src={vector}
@@ -21,7 +21,8 @@ function About() {
               style={{ background: "#F2F2F2", borderRadius: "20px" }}
               className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 w_lg_100 mx-auto ">
               <img
-                className="position-absolute it_img_bottom"
+                style={{ width: "20%", minWidth: "90px", borderRadius: "50%" }}
+                className="position-absolute d-none d-sm-block  it_img_bottom "
                 src={aboutSmall}
                 alt="img"
               />

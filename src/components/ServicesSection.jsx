@@ -10,7 +10,7 @@ const ServicesSection = (props) => {
           <div
             data-aos-duration="2000"
             data-aos="zoom-in"
-            className="d-flex flex-column align-items-sm-center py-5 mt-lg-5 mb-lg-4">
+            className="d-flex flex-column align-items-sm-center py-5 mt-xl-5 mb-xl-4">
             <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 text-start ">
               {props.firstHeading}
             </h3>
@@ -50,7 +50,7 @@ const ServicesSection = (props) => {
               </div>
             </Col>
           </Row>
-          <Row className="align-items-lg-center justify-content-center py-5 my-lg-5 flex-wrap-reverse">
+          <Row className="align-items-lg-center justify-content-center py-5 my--5xl flex-wrap-reverse">
             <Col
               lg={6}
               className="pt-2"

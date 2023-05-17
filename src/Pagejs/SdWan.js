@@ -4,7 +4,8 @@ import ServicesSection from "../components/ServicesSection";
 import softwareImg1 from "../assets/img/webp/softwareSection1.webp";
 import softwareImg2 from "../assets/img/webp/softwareSection2.webp";
 import Footer from "../components/Footer";
-import SoftwareBg from '../assets/img/webp/softwareHero.webp'
+import SoftwareBg from "../assets/img/webp/softwareHero.webp";
+import Loader from "../components/Loader";
 function SdWan() {
   const Heading = "Software Defined - Wide Area Network";
   const sectionHeading = "Improve Everything in a Flash";
@@ -15,10 +16,11 @@ function SdWan() {
     "Software Defined – Wide Area Networks (SD-WAN) are the evolution for agile, growing businesses. It routes data around faulty connections and congestion. It uses minimal hardware to create a seamless user experience. The network can be managed centrally through a single pane of glass. Connect branch offices to headquarters easily while reducing costs. Create a network for your single location or remote worker’s offices and spaces. Implement security in all communications and data transfers. You can create a dedicated network within the organization using public and private internet.";
   const secondartHeading = "Front Row Center";
   const secondPartpara =
-    "We can offer managed and unmanaged SD-WAN products which can eliminate expensive hardware and can be deployed rapidly. The shift to cloud-based software requires intelligent and secure ways to connect to users. What took months establishing or upgrading your network can be done in days or weeks. The network is optimized continuously, and updates happen frequently in milli-seconds. It does not require engineers to be onsite managing your network, thus freeing up resources. Your business operates at peak efficiency utilizing an SD-WAN solution. SD-WAN reduces overhead and adds to the bottom line. The migration from expensive private networks to internet-based circuits reduces costs while maintaining interoperability. Improve your business network with tangible results that can immediately be seen upon implementation..";
+    "We can offer managed and unmanaged SD-WAN products which can eliminate expensive hardware and can be deployed rapidly. The shift to cloud-based software requires intelligent and secure ways to connect to users. What took months establishing or upgrading your network can be done in days or weeks. The network is optimized continuously, and updates happen frequently in milli-seconds. It does not require engineers to be onsite managing your network, thus freeing up resources. Your business operates at peak efficiency utilizing an SD-WAN solution. SD-WAN reduces overhead and adds to the bottom line. The migration from expensive private networks to internet-based circuits reduces costs while maintaining interoperability. Improve your business network with tangible results that can immediately be seen upon implementation.";
 
   return (
     <div>
+      <Loader timeOut="1500" />
       <ServicesHero heroHeading={Heading} heroBG={SoftwareBg} />
       <ServicesSection
         firstHeading={sectionHeading}
