@@ -5,6 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
+import CloudBg from "../assets/img/webp/cloudHero.webp"
 
 function Cloud() {
   const Heading = "Cloud Services ";
@@ -20,7 +21,7 @@ function Cloud() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={CloudBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}

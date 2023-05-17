@@ -5,6 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
+import CcaasBg from '../assets/img/webp/CCaaShero.webp'
 
 function Ccaas() {
   const Heading = "CCaaS";
@@ -21,7 +22,7 @@ function Ccaas() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={CcaasBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}

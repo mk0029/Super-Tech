@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
+import UCaaSBg from "../assets/img/webp/UCaasHero.webp";
 import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
@@ -20,7 +20,7 @@ function UCaaS() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={UCaaSBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}

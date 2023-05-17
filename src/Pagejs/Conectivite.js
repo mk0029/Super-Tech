@@ -1,9 +1,10 @@
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
+import ConnectivityBg from "../assets/img/webp/ConnectivityHero.webp";
 import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
+
 
 function Conectivite() {
   const Heading = "Connectivity";
@@ -20,7 +21,7 @@ function Conectivite() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={ConnectivityBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}

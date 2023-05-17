@@ -1,11 +1,10 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
-
+import SoftwareBg from '../assets/img/webp/softwareHero.webp'
 function SdWan() {
   const Heading = "Software Defined - Wide Area Network";
   const sectionHeading = "Improve Everything in a Flash";
@@ -20,7 +19,7 @@ function SdWan() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={SoftwareBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
