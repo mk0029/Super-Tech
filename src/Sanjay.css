@@ -45,6 +45,18 @@
     opacity: 1;
     -webkit-text-stroke: 1px white;
 }
+.box_shadowHover{
+    transition: all ease-in-out .3s;
+}
+.box_shadowHover:hover{
+    box-shadow: 0 0 20px .8px rgba(0, 0, 0, .8);
+}
+@media (min-width:992px) {
+    .bg_services_hero:hover h2{
+    transform: scale(1.2);
+}
+
+}
 @media (min-width: 1200px) {
   .min_vh_60 {
     min-height: 60vh !important;

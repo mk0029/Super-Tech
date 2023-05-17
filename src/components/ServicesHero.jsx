@@ -6,7 +6,7 @@ const ServicesHero = (props) => {
   return (
     <>
       <header
-        className="bg_services_hero d-flex flex-column min_vh_60 min_vh_40"
+        className="bg_services_hero d-flex flex-column min_vh_60 min_vh_40 "
         style={{
           backgroundImage: `url(${props.heroBG})`,
         }}>
@@ -15,7 +15,7 @@ const ServicesHero = (props) => {
         <Container className="flex-grow-1 d-flex justify-content-center align-items-center">
           <h2
             style={{ maxWidth: "906px" }}
-            className=" text-center text-white ff_jakarta fs_6x4l fw-bold">
+            className=" text-center text-white ff_jakarta fs_6x4l fw-bold transition300">
             {props.heroHeading}
           </h2>
         </Container>

@@ -17,7 +17,7 @@ const ServicesSection = (props) => {
           </div>
           <Row className="align-items-lg-center justify-content-center py-lg-5 ">
             <Col lg={6} md={8} sm={10} xs={12} className="object_fitCover">
-              <div className="pad_21_20 bg_F2 br_20 h-100 ">
+              <div className="pad_21_20 bg_F2 br_20 h-100 box_shadowHover">
                 <img
                   className="w-100 br_10 h-100"
                   src={props.partfirstimg}
@@ -54,7 +54,7 @@ const ServicesSection = (props) => {
               xs={12}
               className="object_fitCover ps-lg-5 pt-2"
             >
-              <div className="pad_21_20 bg_F2 br_20 h-100 ">
+              <div className="pad_21_20 bg_F2 br_20 h-100 box_shadowHover">
                 <img
                   className="w-100 br_10 h-100"
                   src={props.partsecondimg}
