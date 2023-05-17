@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../assets/img/svg/superTechLogo.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -92,53 +93,54 @@ const Footer = () => {
                     </h3>
                     <ul className="ps-0">
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Security
-                        </a>
+                        <Link to="/Services">
+                          <span className=" ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 d-block ">
+                            Security
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Cloud Services
-                        </a>
+                        <Link to="/Services">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08  d-block ">
+                            {" "}
+                            Cloud Services
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          SD-WAN
-                        </a>
+                        <Link to="/SdWan">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08  ">
+                            SD-WAN
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          CCaaS
-                        </a>
+                        <Link to="/CCaaS">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            CCaaS
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          UCaaS
-                        </a>
+                        <Link to="/UCaaS">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            UCaaS
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Connectivity
-                        </a>
+                        <Link to="/Connectivity">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            Connectivity
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Colocation
-                        </a>
+                        <Link to="/Colocation">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            Colocation
+                          </span>
+                        </Link>
                       </li>
                     </ul>
                   </div>
