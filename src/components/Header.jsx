@@ -4,7 +4,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import Home from "./../Pagejs/Home";
 import logo from "../assets/img/svg/logo.svg";
 
-function Header() {
+function Header(props) {
   const [navShow, setNavShow] = useState(false);
   if (navShow) {
     document.body.style.overflow = "hidden";
@@ -34,14 +34,30 @@ function Header() {
                 <ul className="d-flex gap-lg-4 gap-2 py-3 d-none d-lg-flex align-items-center mb-0 justify-content-end ps-0">
                   <li>
                     <Link to="/">
-                      <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative">
+                      <span
+                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative ${props.Nav_TAb_Bottom} `}>
                         Home
                       </span>
                     </Link>
                   </li>
                   <li className="z_index_123">
                     <div class="dropdown">
-                      <button class="dropbtn">Dropdown</button>
+                      <button
+                        className={`dropbtn ${props.Nav_TAb_BottomSecond} `}>
+                        Our Services{" "}
+                        <svg
+                          className="ms-2"
+                          width="12"
+                          height="7"
+                          viewBox="0 0 12 7"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.73789 0.274988C0.554557 0.458322 0.462891 0.691655 0.462891 0.974988C0.462891 1.25832 0.554557 1.49165 0.73789 1.67499L5.33789 6.27499C5.43789 6.37499 5.54622 6.44565 5.66289 6.48699C5.77956 6.52832 5.90456 6.54932 6.03789 6.54999C6.17122 6.54999 6.30056 6.52499 6.42589 6.47499C6.55122 6.42499 6.65522 6.35832 6.73789 6.27499L11.3379 1.67499C11.5212 1.49165 11.6129 1.25832 11.6129 0.974988C11.6129 0.691655 11.5212 0.458322 11.3379 0.274988C11.1546 0.0916548 10.9212 -1.23978e-05 10.6379 -1.23978e-05C10.3546 -1.23978e-05 10.1212 0.0916548 9.93789 0.274988L6.03789 4.17499L2.13789 0.274988C1.95456 0.0916548 1.72122 -1.23978e-05 1.43789 -1.23978e-05C1.15456 -1.23978e-05 0.921224 0.0916548 0.73789 0.274988Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </button>
                       <div class="dropdown-content z_index3">
                         <Link to="/Services">
                           <span className=" d-block ">Services</span>
@@ -68,11 +84,11 @@ function Header() {
                     </div>
                   </li>
                   <li>
-                    <a
-                      className="text-white fw-normal fs_sm opacity08 opacity_1 transition300"
-                      href="#">
-                      Contact Us
-                    </a>
+                    <Link
+                      to="/"
+                      className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative `}>
+                      <a className="text-white fs_sm ">Contact Us</a>
+                    </Link>
                   </li>
                 </ul>
                 <a
@@ -169,9 +185,15 @@ function Header() {
                       </div>
                     </li>
                     <li>
-                      <a className="text-white fs_sm " href="#">
-                        Contact Us
-                      </a>
+                      {" "}
+                      <Link to="/">
+                        <span
+                          className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}>
+                          <a className="text-white fs_sm " href="#Contact">
+                            Contact Us
+                          </a>
+                        </span>
+                      </Link>
                     </li>
                   </ul>
                 </div>

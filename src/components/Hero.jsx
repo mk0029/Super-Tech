@@ -10,7 +10,7 @@ function Hero() {
       id="Hero"
       className="bg_black position-relative min-vh-100 d-flex flex-column">
       <div>
-        <Header />
+        <Header Nav_TAb_Bottom="Nav_TAb_Bottom" />
       </div>
       <span
         style={{ zIndex: "0" }}

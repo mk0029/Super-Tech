@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import heroBG from "../assets/img/webp/securityHero_bg.webp";
+
 import Header from "./Header";
 const ServicesHero = (props) => {
   return (
@@ -10,8 +10,7 @@ const ServicesHero = (props) => {
         style={{
           backgroundImage: `url(${props.heroBG})`,
         }}>
-        {" "}
-        <Header />
+        <Header Nav_TAb_BottomSecond="Nav_TAb_Bottom" />
         <Container className="flex-grow-1 d-flex justify-content-center align-items-center">
           <h2
             style={{ maxWidth: "906px" }}

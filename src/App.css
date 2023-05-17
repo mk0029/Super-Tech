@@ -1,13 +1,13 @@
 /* navbar */
-/* .Nav_TAb_Bottom::after {
+.Nav_TAb_Bottom::after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 2px;
   bottom: -22px;
   left: 0%;
   background-color: white;
-} */
+}
 
 /* Dropdown */
 .dropbtn {

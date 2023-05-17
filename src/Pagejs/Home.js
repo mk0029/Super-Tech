@@ -4,6 +4,7 @@ import Ourservices from "../components/Ourservices";
 import Hero from "../components/Hero";
 import Contact from "../components/Contact";
 import About from "../components/About";
+import { Route, Routes } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
       <About />
       <Ourservices />
 
-      <Contact />
+      <Routes>
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
