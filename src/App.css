@@ -410,6 +410,9 @@
   .min_vh_60 {
     min-height: 60vh !important;
   }
+  .min_vh_100 {
+    min-height: 100vh !important;
+  }
   #Contact .submit_btn {
     margin-top: 40px;
   }

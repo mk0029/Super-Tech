@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import bktop from "../assets/img/png/backToTop-img.png";
+import bktop from "../assets/img/png/top-arrow.png";
 
 const BackTop = () => {
   const top = () => {

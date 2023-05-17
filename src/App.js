@@ -13,6 +13,7 @@ import UCaaS from "./Pagejs/UCaaS";
 import Conectivite from "./Pagejs/Conectivite";
 import Collection from "./Pagejs/Collection";
 import { useEffect } from "react";
+import BackTop from "./components/BackTop";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <div>
+        <BackTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Services" element={<Services />} />

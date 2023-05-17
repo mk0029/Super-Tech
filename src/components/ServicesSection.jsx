@@ -6,15 +6,15 @@ const ServicesSection = (props) => {
   return (
     <div>
       <section className="pt-1">
-        <Container className="py-4">
+        <Container className="py-sm-4">
           <div
             data-aos-duration="2000"
             data-aos="zoom-in"
-            className="d-flex flex-column align-items-center py-5 mt-lg-5 mb-lg-4">
-            <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 ">
+            className="d-flex flex-column align-items-sm-center py-5 mt-lg-5 mb-lg-4">
+            <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 text-start ">
               {props.firstHeading}
             </h3>
-            <p className="maxWidth_780 text-center fw-normal ff_jakarta fs_sm text_black lh_130 opacity08 mb-0 pb-1">
+            <p className="maxWidth_780 text-sm-center fw-normal ff_jakarta fs_sm text_black lh_130 opacity08 mb-0 pb-1">
               {props.firstparagraph}
             </p>
           </div>
@@ -37,10 +37,10 @@ const ServicesSection = (props) => {
             </Col>
             <Col lg={6} data-aos-duration="2000" data-aos="fade-left">
               <div className="ps-lg-5">
-                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-center">
+                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
                   {props.partfirstHeading}
                 </h3>
-                <p className="text-lg-start text-center fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0">
+                <p className="text-lg-start text-sm-center fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0">
                   {props.partfirstpara}
                 </p>
               </div>
@@ -53,10 +53,10 @@ const ServicesSection = (props) => {
               data-aos-duration="2000"
               data-aos="fade-right">
               <div className="pe-lg-4">
-                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-center">
+                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
                   {props.partsecondHeading}
                 </h3>
-                <p className="fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0 text-lg-start text-center">
+                <p className="fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0 text-lg-start text-sm-center">
                   {props.partsecondpara}
                 </p>
               </div>

@@ -18,11 +18,11 @@
   --fs-md: 18px;
   --fs-xl: 20px;
   --fs-2x2l: 22px;
-  --fs-2x8l: 28px;
-  --fs-4x4l: 38px;
+  --fs-2x8l: 22px;
+  --fs-4x4l: 28px;
   --fs-5x2l: 28px;
 
-  --fs-6x4l: 64px;
+  --fs-6x4l: 40px;
   /* */
   --text-black: #000103;
   --text-orange: #ec6a15;
@@ -117,6 +117,8 @@
 #Ourservices .Ourservices_Boxes:hover p {
   color: white;
 }
+/*  */
+
 /*  */
 @media (min-width: 576px) {
   :root {

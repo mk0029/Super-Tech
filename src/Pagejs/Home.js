@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Contact from "../components/Contact";
 import About from "../components/About";
 import { Route, Routes } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <About />
       <Ourservices />
       <Contact />
+      <Footer />
     </div>
   );
 }
