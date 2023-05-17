@@ -6,7 +6,7 @@ const ServicesHero = (props) => {
   return (
     <>
       <header
-        className="bg_services_hero d-flex flex-column min_vh_60 min_vh_40 "
+        className="bg_services_hero d-flex flex-column min_vh_70 min_vh_40 "
         style={{
           backgroundImage: `url(${props.heroBG})`,
         }}>

@@ -35,9 +35,13 @@ const ServicesSection = (props) => {
                 />
               </div>
             </Col>
-            <Col lg={6} data-aos-duration="2000" data-aos="fade-left" className="pt-4 pt-lg-0">
+            <Col
+              lg={6}
+              data-aos-duration="2000"
+              data-aos="fade-left"
+              className="pt-4 pt-lg-0">
               <div className="ps-lg-5">
-                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
+                <h3 className="ff_jakarta  text-capitalize fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
                   {props.partfirstHeading}
                 </h3>
                 <p className="text-lg-start text-sm-center fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0">
@@ -53,7 +57,7 @@ const ServicesSection = (props) => {
               data-aos-duration="2000"
               data-aos="fade-right">
               <div className="pe-lg-4">
-                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
+                <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center text-capitalize">
                   {props.partsecondHeading}
                 </h3>
                 <p className="fw-normal ff_jakarta fs_sm text_black lh_150 opacity08 mb-0 text-lg-start text-sm-center">

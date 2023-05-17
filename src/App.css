@@ -8,7 +8,6 @@
   left: 0%;
   background-color: white;
 }
-
 /* Dropdown */
 .dropbtn {
   background-color: transparent;
@@ -17,7 +16,6 @@
   border: none;
   cursor: pointer;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -733,8 +731,8 @@
   }
 }
 @media (min-width: 1200px) {
-  .min_vh_60 {
-    min-height: 60vh !important;
+  .min_vh_70 {
+    min-height: 70vh !important;
   }
   .min_vh_100 {
     min-height: 100vh !important;
