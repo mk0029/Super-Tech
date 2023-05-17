@@ -5,7 +5,7 @@ import FooterLogo from "../assets/img/svg/superTechLogo.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg_black pt-5">
+      <footer className="bg_black pt-lg-5" id="footer">
         <Container className="py-5">
           <Row className="justify-content-between">
             <Col xl={3} lg={4} sm={6}>
@@ -18,8 +18,8 @@ const Footer = () => {
               </p>
             </Col>
             <Col xl={7} lg={8} xs={12}>
-              <Row>
-                <Col sm={3} className="d-flex justify-content-lg-center">
+              <Row className=" pt-lg-0 pt-4">
+                <Col sm={3} xs={6} className="d-flex justify-content-lg-center">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Main
@@ -50,9 +50,35 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
+                  <div className="d-sm-none">
+                    <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
+                      Legal
+                    </h3>
+                    <ul className="ps-0">
+                      <li className="pb_6">
+                        <a
+                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
+                          href="#"
+                        >
+                          Terms and Conditions{" "}
+                        </a>
+                      </li>
+                      <li className="pb_6">
+                        <a
+                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
+                          href="#"
+                        >
+                          Privacy Policy
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                   </div>
                 </Col>
-                <Col sm={4} className="d-flex justify-content-lg-end justify-content-sm-center">
+                <Col
+                  sm={4} xs={6}
+                  className="d-flex justify-content-lg-end justify-content-sm-center"
+                >
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Our Services
@@ -117,7 +143,7 @@ const Footer = () => {
                     </ul>
                   </div>
                 </Col>
-                <Col sm={5} className="d-flex justify-content-sm-end">
+                <Col sm={5} className="d-sm-flex justify-content-sm-end d-none">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
                       Legal
@@ -147,7 +173,9 @@ const Footer = () => {
           </Row>
         </Container>
         <div className="straightLine"></div>
-        <p className="ff_Montserrat fw-normal fs_sm text-white opacity08 text-center py-4">© Supertech | All Rights Reserved.</p>
+        <p className="ff_Montserrat fw-normal fs_sm text-white opacity08 text-center mb-0 py-4">
+          © Supertech | All Rights Reserved.
+        </p>
       </footer>
     </>
   );

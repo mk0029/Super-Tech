@@ -2,9 +2,10 @@ import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import collectionImg1 from "../assets/img/webp/colocationSection1.webp";
+import collectionImg2 from "../assets/img/webp/colocationSection2.webp";
 import Footer from "../components/Footer";
+import ColocationBg from '../assets/img/webp/ColocationHero.webp'
 
 function Collection() {
   const Heading = "Colocation";
@@ -20,7 +21,7 @@ function Collection() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={ColocationBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -28,8 +29,8 @@ function Collection() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={collectionImg1}
+        partsecondimg={collectionImg2}
       />
       <Footer />
     </div>

@@ -2,9 +2,10 @@ import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import cloudImg1 from "../assets/img/webp/cloudSection1.webp";
+import cloudImg2 from "../assets/img/webp/cloudSection2.webp";
 import Footer from "../components/Footer";
+import CloudBg from "../assets/img/webp/cloudHero.webp"
 
 function Cloud() {
   const Heading = "Cloud Services ";
@@ -20,7 +21,7 @@ function Cloud() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={CloudBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -28,8 +29,8 @@ function Cloud() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={cloudImg1}
+        partsecondimg={cloudImg2}
       />
       <Footer />
     </div>

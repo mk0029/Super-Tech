@@ -2,9 +2,10 @@ import React from "react";
 import ServicesHero from "../components/ServicesHero";
 import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
-import organisationImg from "../assets/img/webp/organisations.webp";
-import protectionImg from "../assets/img/webp/protection.webp";
+import CcaasImg1 from "../assets/img/webp/CCaasSection1.webp";
+import CcaasImg2 from "../assets/img/webp/CCaasSection2.webp";
 import Footer from "../components/Footer";
+import CcaasBg from '../assets/img/webp/CCaaShero.webp'
 
 function Ccaas() {
   const Heading = "CCaaS";
@@ -21,7 +22,7 @@ function Ccaas() {
 
   return (
     <div>
-      <ServicesHero heroHeading={Heading} heroBG={securityhero} />
+      <ServicesHero heroHeading={Heading} heroBG={CcaasBg} />
       <ServicesSection
         firstHeading={sectionHeading}
         firstparagraph={secPara}
@@ -29,8 +30,8 @@ function Ccaas() {
         partfirstpara={firstPartpara}
         partsecondHeading={secondartHeading}
         partsecondpara={secondPartpara}
-        partfirstimg={organisationImg}
-        partsecondimg={protectionImg}
+        partfirstimg={CcaasImg1}
+        partsecondimg={CcaasImg2}
       />
       <Footer />
     </div>

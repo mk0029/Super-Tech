@@ -41,6 +41,10 @@
     background-color: #ffffff;
     opacity: 50%;
 }
+#footer ul li a:hover {
+    opacity: 1;
+    -webkit-text-stroke: 1px white;
+}
 @media (min-width: 1200px) {
   .min_vh_60 {
     min-height: 60vh !important;
