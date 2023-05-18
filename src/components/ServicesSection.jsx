@@ -12,12 +12,7 @@ const ServicesSection = (props) => {
           <div
             data-aos-duration="2000"
             data-aos="zoom-in"
-<<<<<<< HEAD
             className="d-flex flex-column align-items-sm-center py-5 mt-xl-5 mb-xl-4">
-=======
-            className="d-flex flex-column align-items-sm-center py-5 mt-lg-5 mb-lg-4"
-          >
->>>>>>> b29029987062c981c83382f57fc07a80e6e85ea6
             <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 text-start ">
               {props.firstHeading}
             </h3>
