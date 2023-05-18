@@ -12,7 +12,7 @@ function Contact() {
             <div
               className="col-lg-6"
               data-aos="fade-right"
-              data-aos-duration="3000">
+              data-aos-duration="1500">
               <div className=" position-relative orange_bg_box1 orange_bg_box2 transition300">
                 <img className="w-100 p-2 pe-lg-4" src={contact} alt="img" />
               </div>

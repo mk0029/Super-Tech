@@ -21,10 +21,10 @@ function Ourservices() {
               {ourServisesBox.map((data) => {
                 return (
                   <div
-                    className="col-xl-3 col-lg-4 col-sm-6  mb-4 "
+                    className="col-xl-3 col-lg-4 col-sm-6  mb-md-4 mb-3 "
                     data-aos="zoom-in"
                     data-aos-delay={data.Delay}
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
                       <span className=" d-inline-block pb-2 mb-1 transition300">
                         <div className="svg transition300 d-inline-block ">

@@ -15,10 +15,9 @@ const Footer = () => {
               xl={3}
               lg={4}
               sm={6}>
-              <a href="#">
-                {" "}
+              <Link to="/">
                 <img src={FooterLogo} alt="img" />
-              </a>
+              </Link>
               <p className="fw-normal fs_sm text-white ff_jakarta opacity08 lh_150 pt-3">
                 Make informed IT choices that will benefit your business.
               </p>
