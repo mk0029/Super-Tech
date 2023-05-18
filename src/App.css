@@ -286,10 +286,12 @@
 
 /* choose-us */
 .grid_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
   gap: 2px;
-  transform: translateX(25%);
+  /* transform: translateX(24%); */
 }
 .item_1 {
   grid-row: 1/2;
@@ -362,6 +364,9 @@
   -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
   padding: 1px;
 }
+.grid_boxes:hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
 .grid_box {
   width: 100%;
   height: 100%;
@@ -431,6 +436,30 @@
 }
 .grid_boxes:nth-child(10) .grid_box {
   background: #f2faff !important;
+}
+.grid_boxes:nth-child(10):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(2):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(3):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(4):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(6):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(7):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(8):hover .grid_box {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+}
+.grid_boxes:nth-child(4):hover .grid_box h1 {
+  color: #f6f6f6 !important;
 }
 
 /* Snjay */
@@ -518,7 +547,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 2px;
-    transform: translateX(-15%);
+    transform: translateX(-22%);
   }
   .item_1 {
     grid-row: 3/5;
@@ -578,6 +607,9 @@
   }
 }
 @media (min-width: 768px) {
+  .grid_container {
+    transform: translateX(-18%);
+  }
   .item_1 {
     grid-row: 3/5;
     grid-column: 1/2;
@@ -686,6 +718,12 @@
     left: calc(50% - 15px);
     border-radius: 0px 15px 0px 0px;
   }
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    transform: translateX(-11.5%);
+  }
   .item_1 {
     grid-row: 3/5;
     grid-column: 1/2;
@@ -747,12 +785,7 @@
   #Contact .submit_btn {
     margin-top: 40px;
   }
-  .grid_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 2px;
-    transform: translateX(-7%);
-  }
+
   .item_1 {
     grid-row: 3/5;
     grid-column: 1/2;

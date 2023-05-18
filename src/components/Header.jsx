@@ -105,13 +105,14 @@ function Header(props) {
                     </div>
                   </li>
                   <li>
-                    <Link
-                      to="/"
+                    <span
                       className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative `}>
-                      <a className="text-white fs_sm  ff_jakarta ">
+                      <a
+                        href="#Contact"
+                        className="text-white fs_sm  ff_jakarta ">
                         Contact Us
                       </a>
-                    </Link>
+                    </span>
                   </li>
                 </ul>
                 <a
