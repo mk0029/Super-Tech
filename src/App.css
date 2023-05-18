@@ -122,6 +122,11 @@
 .menu_icon_size {
   width: 30px;
 }
+.btop_bg {
+  background: linear-gradient(136.9deg, #ffaf7b 0%, #d35e12 100%) !important;
+  width: 30px;
+  height: 30px;
+}
 
 /* dropdown */
 #Header .btn-success {
