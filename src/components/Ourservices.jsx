@@ -1,5 +1,6 @@
 import React from "react";
 import { ourServisesBox } from "../Pagejs/DataMap";
+import { Link } from "react-router-dom";
 function Ourservices() {
   return (
     <>
@@ -25,21 +26,24 @@ function Ourservices() {
                     data-aos="zoom-in"
                     data-aos-delay={data.Delay}
                     data-aos-duration="1000">
-                    <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
-                      <span className=" d-inline-block pb-2 mb-1 transition300">
-                        <div className="svg transition300 d-inline-block ">
-                          {data.svgImage}
-                        </div>
-                      </span>
-                      <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
-                        {data.Heading}
-                      </h3>
-                      <p
-                        style={{ maxLines: "230px" }}
-                        className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0 transition300">
-                        {data.peragraph}
-                      </p>
-                    </div>
+                    <Link to={data.PageLink}>
+                      {" "}
+                      <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
+                        <span className=" d-inline-block pb-2 mb-1 transition300">
+                          <div className="svg transition300 d-inline-block ">
+                            {data.svgImage}
+                          </div>
+                        </span>
+                        <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
+                          {data.Heading}
+                        </h3>
+                        <p
+                          style={{ maxLines: "230px" }}
+                          className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0 transition300">
+                          {data.peragraph}
+                        </p>
+                      </div>
+                    </Link>
                   </div>
                 );
               })}
