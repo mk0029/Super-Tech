@@ -41,12 +41,7 @@ const ServicesSection = (props) => {
               lg={6}
               data-aos-duration="2000"
               data-aos="fade-left"
-<<<<<<< HEAD
               className="pt-4 pt-lg-0">
-=======
-              className="pt-4 pt-lg-0"
-            >
->>>>>>> b29029987062c981c83382f57fc07a80e6e85ea6
               <div className="ps-lg-5">
                 <h3 className="ff_jakarta  text-capitalize fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
                   {props.partfirstHeading}
