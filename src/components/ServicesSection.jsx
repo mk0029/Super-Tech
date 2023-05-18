@@ -12,7 +12,12 @@ const ServicesSection = (props) => {
           <div
             data-aos-duration="2000"
             data-aos="zoom-in"
+<<<<<<< HEAD
             className="d-flex flex-column align-items-sm-center py-5 mt-xl-5 mb-xl-4">
+=======
+            className="d-flex flex-column align-items-sm-center py-5 mt-lg-5 mb-lg-4"
+          >
+>>>>>>> b29029987062c981c83382f57fc07a80e6e85ea6
             <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 text-start ">
               {props.firstHeading}
             </h3>
@@ -41,7 +46,12 @@ const ServicesSection = (props) => {
               lg={6}
               data-aos-duration="2000"
               data-aos="fade-left"
+<<<<<<< HEAD
               className="pt-4 pt-lg-0">
+=======
+              className="pt-4 pt-lg-0"
+            >
+>>>>>>> b29029987062c981c83382f57fc07a80e6e85ea6
               <div className="ps-lg-5">
                 <h3 className="ff_jakarta  text-capitalize fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center">
                   {props.partfirstHeading}
