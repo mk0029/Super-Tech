@@ -13,7 +13,7 @@ function Ourservices() {
             <h2
               className="text-center text_black ff_jakarta fw-semibold fs_4x4l  text-capitalize"
               data-aos="fade-down"
-              data-aos-duration="3000">
+              data-aos-duration="1500">
               our services
             </h2>
           </div>
@@ -50,7 +50,7 @@ function Ourservices() {
               <span
                 className=" d-inline-block pt-md-5 pt-4 text-center mb-md-3"
                 data-aos="fade-up"
-                data-aos-duration="3000">
+                data-aos-duration="1500">
                 <em className=" ff_jakarta fs_md fw-med text_black opacity08">
                   Make informed IT choices that will benefit your business.
                 </em>
