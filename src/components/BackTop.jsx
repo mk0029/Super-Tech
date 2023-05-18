@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import bktop from "../assets/img/svg/btop.svg";
+import bktop from "../assets/img/png/btop.png";
 
 const BackTop = () => {
   const top = () => {
@@ -27,7 +27,7 @@ const BackTop = () => {
             : "btn d-none position-fixed end-0 bottom-0 mb-2 border-0"
         }
       >
-        <span className="btop_bg d-flex justify-content-center align-items-center">
+        <span className="btop_bg d-flex justify-content-center align-items-center btop_animation">
           <svg
             width="20"
             height="20"
