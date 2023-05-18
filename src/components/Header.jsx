@@ -14,15 +14,20 @@ function Header(props) {
   return (
     <>
       <section
-        style={{ background: " rgba(0, 0, 0, .9)" }}
+        style={{
+          background: " rgba(0, 0, 0,)",
+          backdropFilter: "blur(7px)",
+        }}
         id="Header"
-        className=" navBar "
+        className=" navBar py-3 "
         data-aos="fade-down"
         data-aos-easing="ease-out"
         data-aos-duration="2000">
         <div className="  m-0 m-sm-auto">
-          <nav className="py-3 nav_bg">
-            <div className=" container px-2 px-sm-0 z_index_123">
+          <nav className=" nav_bg">
+            <div
+              className=" container px-2 px-sm-0 position-relative"
+              style={{ zIndex: "12" }}>
               <div
                 data-aos="fade-down"
                 data-aos-delay="500"
@@ -58,7 +63,9 @@ function Header(props) {
                           />
                         </svg>
                       </button>
-                      <div class="dropdown-content transition300 z_index3">
+                      <div
+                        class="dropdown-content transition300  "
+                        style={{ zIndex: "123" }}>
                         <Link to="/Services">
                           <span className=" d-block   d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                             Security
@@ -98,13 +105,14 @@ function Header(props) {
                     </div>
                   </li>
                   <li>
-                    <Link
-                      to="/"
+                    <span
                       className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative `}>
-                      <a className="text-white fs_sm  ff_jakarta ">
+                      <a
+                        href="#Contact"
+                        className="text-white fs_sm  ff_jakarta ">
                         Contact Us
                       </a>
-                    </Link>
+                    </span>
                   </li>
                 </ul>
                 <a

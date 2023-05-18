@@ -4,7 +4,7 @@ import ServicesSection from "../components/ServicesSection";
 import conectivityImg1 from "../assets/img/webp/conectivitySection1.webp";
 import conectivityImg2 from "../assets/img/webp/conectivitySection2.webp";
 import Footer from "../components/Footer";
-
+import Loader from "../components/Loader";
 
 function Conectivite() {
   const Heading = "Connectivity";
@@ -21,6 +21,8 @@ function Conectivite() {
 
   return (
     <div>
+      {" "}
+      <Loader timeOut="1500" />
       <ServicesHero heroHeading={Heading} heroBG={ConnectivityBg} />
       <ServicesSection
         firstHeading={sectionHeading}

@@ -5,7 +5,8 @@ import ServicesSection from "../components/ServicesSection";
 import CcaasImg1 from "../assets/img/webp/CCaasSection1.webp";
 import CcaasImg2 from "../assets/img/webp/CCaasSection2.webp";
 import Footer from "../components/Footer";
-import CcaasBg from '../assets/img/webp/CCaaShero.webp'
+import CcaasBg from "../assets/img/webp/CCaaShero.webp";
+import Loader from "../components/Loader";
 
 function Ccaas() {
   const Heading = "CCaaS";
@@ -22,6 +23,7 @@ function Ccaas() {
 
   return (
     <div>
+      <Loader timeOut="1500" />
       <ServicesHero heroHeading={Heading} heroBG={CcaasBg} />
       <ServicesSection
         firstHeading={sectionHeading}

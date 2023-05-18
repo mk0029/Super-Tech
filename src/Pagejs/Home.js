@@ -7,11 +7,12 @@ import About from "../components/About";
 import Choose from "../components/Choose";
 import { Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
+import Loader from "../components/Loader";
 
 function Home() {
   return (
     <div>
-      {/* <Header /> */}
+      <Loader timeOut="3000" />
       <Hero />
       <About />
       <Ourservices />

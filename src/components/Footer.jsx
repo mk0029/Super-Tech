@@ -37,23 +37,23 @@ const Footer = () => {
                     </h3>
                     <ul className="ps-0">
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Home
-                        </a>
+                        <Link to="/">
+                          <span className=" ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 d-block ">
+                            Home
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
+                          href="#Choose">
                           About us
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
+                          href="#Contact">
                           Contact us
                         </a>
                       </li>

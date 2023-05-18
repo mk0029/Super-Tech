@@ -5,6 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 import organisationImg from "../assets/img/webp/organisations.webp";
 import protectionImg from "../assets/img/webp/protection.webp";
 import Footer from "../components/Footer";
+import Loader from "../components/Loader";
 
 function Services() {
   const Heading = "Security";
@@ -20,6 +21,7 @@ function Services() {
 
   return (
     <div>
+      <Loader timeOut="1500" />
       <ServicesHero heroHeading={Heading} heroBG={securityhero} />
       <ServicesSection
         firstHeading={sectionHeading}
