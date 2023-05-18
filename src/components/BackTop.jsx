@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import bktop from "../assets/img/png/btop.png";
+import bktop from "../assets/img/svg/btop.svg";
 
 const BackTop = () => {
   const top = () => {
@@ -27,14 +27,12 @@ const BackTop = () => {
             : "btn d-none position-fixed end-0 bottom-0 mb-2 border-0"
         }
       >
-        <div className="btop_bg">
-          <img
-            style={{ minWidth: "30px", maxWidth: "3%" }}
-            className=" position-fixed end-0 bottom-0 m-3 rounded-5 "
-            src={bktop}
-            alt="backtotopimg"
-          />
-        </div>
+        <img
+          style={{ width: "50px" }}
+          className=" position-fixed end-0 bottom-0 m-3 rounded-5 "
+          src={bktop}
+          alt="backtotopimg"
+        />
       </button>
     </div>
   );
