@@ -33,9 +33,9 @@ function Header(props) {
                 data-aos="fade-down"
                 data-aos-delay="500"
                 className="d-flex justify-content-between align-items-center w-100 py-3">
-                <a className="text-white fs_sm" href="#">
+                <Link to="/">
                   <img className="Nav_logo" src={logo} alt="img" />
-                </a>
+                </Link>
 
                 <ul className="d-flex gap-lg-4 gap-2 py-3 d-none d-lg-flex align-items-center mb-0 justify-content-end ps-0">
                   <li>
