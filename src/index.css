@@ -139,6 +139,23 @@
   }
 }
 /*  */
+.bg__Grident {
+  background: linear-gradient(to left, var(--bg-orange), #e0e5ff);
+}
+.bg__Grident:hover {
+  animation: BackTOp 0.2s linear 0s 1 alternate;
+}
+@keyframes BackTOp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 /* loader */
 
 .ayoub-loader .loader,
