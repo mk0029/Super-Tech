@@ -49,7 +49,7 @@ function Header(props) {
                   <li className="z_index_123 ">
                     <div class="dropdown transition300">
                       <button
-                        className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}>
+                        className={`dropbtn fw-normal fs_sm ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}>
                         Our Services{" "}
                         <svg
                           className="ms-2"
@@ -65,7 +65,7 @@ function Header(props) {
                         </svg>
                       </button>
                       <div
-                        class="dropdown-content transition300  "
+                        class="dropdown-content fs_sm transition300  "
                         style={{ zIndex: "123" }}>
                         <Link to="/Services">
                           <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
@@ -179,7 +179,7 @@ function Header(props) {
                     <li className="z_index_123 ">
                       <div class="dropdown transition300">
                         <button
-                          className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}>
+                          className={`dropbtn fs_sm  fw-normal ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}>
                           Our Services{" "}
                           <svg
                             className="ms-2"
@@ -195,7 +195,7 @@ function Header(props) {
                           </svg>
                         </button>
                         <div
-                          class="dropdown-content transition300  "
+                          class="dropdown-content fs_sm transition300  "
                           style={{ zIndex: "123" }}>
                           <Link to="/Services">
                             <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
