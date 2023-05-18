@@ -68,7 +68,7 @@ function Header(props) {
                         class="dropdown-content transition300  "
                         style={{ zIndex: "123" }}>
                         <Link to="/Services">
-                          <span className="d-block  text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                             Security
                           </span>
                         </Link>
@@ -171,61 +171,64 @@ function Header(props) {
                   <ul className="d-flex flex-column gap-3 gap-xl-5 list-unstyled mb-0 align-items-center h-100 justify-content-center">
                     <li>
                       <Link onClick={() => setNavShow(!navShow)} to="/">
-                        <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative">
+                        <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative">
                           Home
                         </span>
                       </Link>
                     </li>
-                    <li className="z_index_123">
-                      <div class="dropdown">
-                        <button class="dropbtn">Dropdown</button>
-                        <div class="dropdown-content z_index3">
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/Services">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                    <li className="z_index_123 ">
+                      <div class="dropdown transition300">
+                        <button
+                          className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}>
+                          Our Services{" "}
+                          <svg
+                            className="ms-2"
+                            width="12"
+                            height="7"
+                            viewBox="0 0 12 7"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M0.73789 0.274988C0.554557 0.458322 0.462891 0.691655 0.462891 0.974988C0.462891 1.25832 0.554557 1.49165 0.73789 1.67499L5.33789 6.27499C5.43789 6.37499 5.54622 6.44565 5.66289 6.48699C5.77956 6.52832 5.90456 6.54932 6.03789 6.54999C6.17122 6.54999 6.30056 6.52499 6.42589 6.47499C6.55122 6.42499 6.65522 6.35832 6.73789 6.27499L11.3379 1.67499C11.5212 1.49165 11.6129 1.25832 11.6129 0.974988C11.6129 0.691655 11.5212 0.458322 11.3379 0.274988C11.1546 0.0916548 10.9212 -1.23978e-05 10.6379 -1.23978e-05C10.3546 -1.23978e-05 10.1212 0.0916548 9.93789 0.274988L6.03789 4.17499L2.13789 0.274988C1.95456 0.0916548 1.72122 -1.23978e-05 1.43789 -1.23978e-05C1.15456 -1.23978e-05 0.921224 0.0916548 0.73789 0.274988Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </button>
+                        <div
+                          class="dropdown-content transition300  "
+                          style={{ zIndex: "123" }}>
+                          <Link to="/Services">
+                            <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                               Security
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/cloude">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/cloude">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Cloud Services
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/SdWan">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/SdWan">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               SD-WAN
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/CCaaS">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/CCaaS">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               CCaaS
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/UCaaS">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/UCaaS">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               UCaaS
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/Connectivity">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/Connectivity">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Connectivity
                             </span>
                           </Link>
-                          <Link
-                            onClick={() => setNavShow(!navShow)}
-                            to="/Colocation">
-                            <span className=" d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
+                          <Link to="/Colocation">
+                            <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Colocation
                             </span>
                           </Link>
@@ -237,7 +240,9 @@ function Header(props) {
                       <Link to="/">
                         <span
                           className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}>
-                          <a className="text-white fs_sm " href="#Contact">
+                          <a
+                            className="text-white fs_sm ff_jakarta"
+                            href="#Contact">
                             Contact Us
                           </a>
                         </span>
