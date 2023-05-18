@@ -22,8 +22,8 @@ function Header(props) {
         className="navBar "
         data-aos="fade-down"
         data-aos-easing="ease-out"
-        data-aos-delay="2000"
-        data-aos-duration="2000">
+        data-aos-delay="1500"
+        data-aos-duration="1500">
         <div className="  m-0 m-sm-auto">
           <nav className=" nav_bg">
             <div

@@ -27,7 +27,7 @@ function Hero() {
         <div className="row align-items-center">
           <div
             className="col-lg-6"
-            data-aos-delay="2000"
+            data-aos-delay="1500"
             data-aos="fade-right"
             data-aos-duration="1500">
             <div className="mt-4 mt-lg-0">
