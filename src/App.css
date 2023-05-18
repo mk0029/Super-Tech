@@ -2,7 +2,7 @@
 .dropbtn {
   background-color: transparent;
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   border: none;
   cursor: pointer;
 }
@@ -102,7 +102,7 @@
   position: fixed;
   width: 140%;
   height: 100vh !important;
-  background: #ec6a15 !important;
+  background: #ec6b15f2 !important;
   left: -18% !important;
   top: 0;
   z-index: 999 !important;
@@ -113,7 +113,7 @@
   position: absolute;
   width: 100vw;
   height: 100vh !important;
-  background: #ec6a15 !important;
+  background: #ec6b15e6 !important;
   left: -160%;
   top: 0;
   transition: all 0.4s ease-in-out;
@@ -195,8 +195,8 @@
   transform: translate(-50%, -50%);
   background: #013968;
   filter: blur(150px);
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   z-index: 1;
 }
 
@@ -631,6 +631,10 @@
   }
 }
 @media (min-width: 768px) {
+  .Bg_shadow::before {
+    width: 250px;
+    height: 250px;
+  }
   .grid_container {
     transform: translateX(-16%);
   }
@@ -855,7 +859,7 @@
     transform: translateX(-9%);
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
   .min_vh_100 {
     min-height: 50vh !important;
   }
