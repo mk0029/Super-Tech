@@ -511,6 +511,9 @@
 .box_shadowHover:hover {
   box-shadow: 0 0 20px 0.8px rgba(0, 0, 0, 0.8);
 }
+.max_width308{
+  max-width: 308px;
+}
 /* break-point*/
 @media (max-width: 576px) {
   .w_xsm_100 {
