@@ -854,4 +854,8 @@
   .min_vh_100 {
     min-height: 50vh !important;
   }
+  .py-x4l {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
 }

@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section
       id="Hero"
-      className="bg_black position-relative min_vh_100 d-flex flex-column">
+      className="bg_black position-relative min_vh_100 d-flex flex-column ">
       <div style={{ position: "relative", zIndex: "1213" }}>
         <Header Nav_TAb_Bottom="Nav_TAb_Bottom" />
       </div>
@@ -23,7 +23,7 @@ function Hero() {
         src={rightBottom}
         alt="img"
       />
-      <div className="container d-flex flex-grow-1 position-relative z_index0 pt-0 pt-sm-5 py-5 py-xl-0">
+      <div className="container d-flex flex-grow-1 position-relative z_index0 pt-0 pt-sm-5 py-5 py-xl-0 py-x4l">
         <div className="row align-items-center">
           <div
             className="col-lg-6"
