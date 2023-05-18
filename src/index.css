@@ -109,17 +109,17 @@
   border: 0.5px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-#Ourservices .Ourservices_Boxes:hover span svg rect {
-  fill: white;
+#Ourservices .Ourservices_Boxes span .svg {
+  border-radius: 10px;
+  background-color: transparent;
+}
+#Ourservices .Ourservices_Boxes:hover span .svg {
+  box-shadow: 0 0 27.64px -6.04px rgba(0, 0, 0, 0.8);
 }
 #Ourservices .Ourservices_Boxes:hover {
-  background-color: #000103c2 !important;
-  box-shadow: 0 0 20.64px 0.88px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 27.64px 0.77px rgba(0, 0, 0, 0.8);
 }
-#Ourservices .Ourservices_Boxes:hover h3,
-#Ourservices .Ourservices_Boxes:hover p {
-  color: white;
-}
+
 /*  */
 .nav_btn:hover .Animation_CallIcon {
   animation: Callicon 0.001s linear 0s infinite alternate;

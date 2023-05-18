@@ -14,6 +14,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "300",
     Heading: "Security",
     peragraph: "Cybersecurity solutions that make sense for business",
   },
@@ -32,6 +33,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "600",
     Heading: "Cloud Services",
     peragraph: "Improve business operations by migrating to cloud services",
   },
@@ -114,6 +116,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "900",
     Heading: "SD-WAN",
     peragraph: "Simplify management, reduce costs",
   },
@@ -140,6 +143,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "1200",
     Heading: "CCaaS",
     peragraph: "Deploy CCaaS for improved CX",
   },
@@ -162,6 +166,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "600",
     Heading: "UCaaS",
     peragraph: "Deploy UCaaS for improved UX",
   },
@@ -208,6 +213,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "900",
     Heading: "Connectivity",
     peragraph: "Optimize Perfomance",
   },
@@ -258,6 +264,7 @@ export const ourServisesBox = [
         />
       </svg>
     ),
+    Delay: "1200",
     Heading: "Colocation",
     peragraph:
       " Leverage colocation to interconnect to an ecosystem of clouds & services",

@@ -7,7 +7,6 @@ function Ourservices() {
         id="Ourservices"
         style={{ backgroundColor: "#F2F2F2" }}
         className="py-5">
-        {" "}
         <div className=" container">
           <div className="pt-lg-4 pb-lg-5 pb-md-4 pb-3">
             <h2
@@ -24,10 +23,13 @@ function Ourservices() {
                   <div
                     className="col-xl-3 col-lg-4 col-sm-6  mb-4 "
                     data-aos="zoom-in"
+                    data-aos-delay={data.Delay}
                     data-aos-duration="3000">
                     <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
                       <span className=" d-inline-block pb-2 mb-1 transition300">
-                        {data.svgImage}
+                        <div className="svg transition300 d-inline-block ">
+                          {data.svgImage}
+                        </div>
                       </span>
                       <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
                         {data.Heading}

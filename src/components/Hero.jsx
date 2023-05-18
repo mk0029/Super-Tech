@@ -27,6 +27,7 @@ function Hero() {
         <div className="row align-items-center">
           <div
             className="col-lg-6"
+            data-aos-delay="2000"
             data-aos="fade-right"
             data-aos-duration="3000">
             <div className="mt-4 mt-lg-0">
@@ -51,6 +52,7 @@ function Hero() {
           </div>
           <div
             className="col-lg-6 mt-5 mt-lg-0 "
+            data-aos-delay="2000"
             data-aos="fade-left"
             data-aos-duration="3000">
             <div className="d-flex justify-content-center Bg_shadow position-relative ">

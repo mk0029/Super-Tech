@@ -22,6 +22,7 @@ function Header(props) {
         className=" navBar py-3 "
         data-aos="fade-down"
         data-aos-easing="ease-out"
+        data-aos-delay="2000"
         data-aos-duration="2000">
         <div className="  m-0 m-sm-auto">
           <nav className=" nav_bg">

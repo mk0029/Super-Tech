@@ -12,7 +12,7 @@ import Loader from "../components/Loader";
 function Home() {
   return (
     <div>
-      <Loader timeOut="3000" />
+      <Loader timeOut="2700" />
       <Hero />
       <About />
       <Ourservices />
