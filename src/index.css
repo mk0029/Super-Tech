@@ -122,7 +122,7 @@
 
 /*  */
 .nav_btn:hover .Animation_CallIcon {
-  animation: Callicon 0.001s linear 0s infinite alternate;
+  animation: Callicon 100ms linear 0s infinite alternate;
 }
 @keyframes Callicon {
   0% {
