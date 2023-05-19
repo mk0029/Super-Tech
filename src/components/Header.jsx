@@ -71,7 +71,7 @@ function Header(props) {
                             Security
                           </span>
                         </Link>
-                        <Link to="/cloude">
+                        <Link to="/cloud">
                           <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                             Cloud Services
                           </span>
@@ -166,7 +166,7 @@ function Header(props) {
                 <div className={` ${navShow ? "shownav " : "hidenav p-0"}`}>
                   <ul className="d-flex flex-column gap-3 gap-xl-5 list-unstyled mb-0 align-items-center h-100 justify-content-center">
                     <li>
-                      <Link onClick={() => setNavShow(!navShow)} to="/home">
+                      <Link onClick={() => setNavShow(!navShow)} to="/">
                         <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative">
                           Home
                         </span>
@@ -198,7 +198,7 @@ function Header(props) {
                               Security
                             </span>
                           </Link>
-                          <Link to="/cloude">
+                          <Link to="/cloud">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Cloud Services
                             </span>

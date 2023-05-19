@@ -6,8 +6,8 @@ function Choose() {
     <>
       <section className="py-5 my-lg-5 overflow-hidden" id="Choose">
         <div className="container">
-          <h2 className=" ff_jakarta fw-semibold fs_4x4l text_black text-center">
-            Why choose us{" "}
+          <h2 className=" ff_jakarta fw-semibold fs_4x4l text_black text-center ">
+            Why Choose Us{" "}
           </h2>
           <div className="d-flex justify-content-center justify-content-sm-start">
             {" "}

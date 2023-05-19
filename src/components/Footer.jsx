@@ -99,7 +99,7 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="pb_6">
-                        <Link to="/Services">
+                        <Link to="/cloud">
                           <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08  d-block ">
                             {" "}
                             Cloud Services
