@@ -24,7 +24,7 @@ function App() {
         <BackTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/Security" element={<Services />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/SdWan" element={<SdWan />} />
           <Route path="/CCaaS" element={<Ccaas />} />

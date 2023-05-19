@@ -66,7 +66,7 @@ function Header(props) {
                       <div
                         class="dropdown-content fs_sm transition300  "
                         style={{ zIndex: "123" }}>
-                        <Link to="/Services">
+                        <Link to="/Security">
                           <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                             Security
                           </span>
@@ -195,7 +195,7 @@ function Header(props) {
                           style={{ zIndex: "123" }}>
                           <Link
                             onClick={() => setNavShow(!navShow)}
-                            to="/Services">
+                            to="/Security">
                             <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                               Security
                             </span>
