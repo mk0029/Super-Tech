@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Route, Routes } from "react-router-dom";
@@ -14,7 +13,6 @@ import Conectivite from "./Pagejs/Conectivite";
 import Collection from "./Pagejs/Collection";
 import { useEffect } from "react";
 import BackTop from "./components/BackTop";
-import Loader from "./components/Loader";
 
 function App() {
   useEffect(() => {
@@ -24,7 +22,6 @@ function App() {
     <>
       <div className=" overflow-hidden">
         <BackTop />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Services" element={<Services />} />

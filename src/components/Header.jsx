@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import logo from "../assets/img/svg/logo.svg";
 
 function Header(props) {
@@ -51,7 +50,7 @@ function Header(props) {
                     </Link>
                   </li>
                   <li className="z_index_123 ">
-                    <div class="dropdown transition300">
+                    <div className="dropdown transition300">
                       <button
                         className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
                       >
@@ -176,14 +175,14 @@ function Header(props) {
                 <div className={` ${navShow ? "shownav " : "hidenav p-0"}`}>
                   <ul className="d-flex flex-column gap-3 gap-xl-5 list-unstyled mb-0 align-items-center h-100 justify-content-center">
                     <li>
-                      <Link onClick={() => setNavShow(!navShow)} to="/">
+                      <Link onClick={() => setNavShow(!navShow)} to="/home">
                         <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 Nav_TAb_Bottom position-relative">
                           Home
                         </span>
                       </Link>
                     </li>
                     <li className="z_index_123 ">
-                      <div class="dropdown transition300">
+                      <div className="dropdown transition300">
                         <button
                           className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
                         >
@@ -203,7 +202,7 @@ function Header(props) {
                           </svg>
                         </button>
                         <div
-                          class="dropdown-content transition300  "
+                          className="dropdown-content transition300  "
                           style={{ zIndex: "123" }}
                         >
                           <Link to="/Services">
@@ -246,18 +245,16 @@ function Header(props) {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/">
-                        <span
-                          className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}
+                      <span
+                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}
+                      >
+                        <a
+                          className="text-white fs_sm ff_jakarta"
+                          href="#Contact"
                         >
-                          <a
-                            className="text-white fs_sm ff_jakarta"
-                            href="#Contact"
-                          >
-                            Contact Us
-                          </a>
-                        </span>
-                      </Link>
+                          Contact Us
+                        </a>
+                      </span>
                     </li>
                   </ul>
                 </div>
