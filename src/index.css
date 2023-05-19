@@ -127,15 +127,15 @@
 @keyframes Callicon {
   0% {
     position: relative;
-    transform: translate(-1px, 0) rotate(10deg);
+    transform: translate(-2px, 0) rotate(10deg);
   }
   50% {
     position: relative;
-    transform: translate(-2px, 0) rotate(0deg);
+    transform: translate(0px, 0) rotate(-5deg);
   }
   0% {
     position: relative;
-    transform: translate(-1px, 0) rotate(10deg);
+    transform: translate(-2px, 0) rotate(10deg);
   }
 }
 /*  */
