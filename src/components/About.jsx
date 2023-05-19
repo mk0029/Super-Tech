@@ -16,7 +16,7 @@ function About() {
           <div
             className="col-lg-6 mt-4 mt-lg-0"
             data-aos="fade-right"
-            data-aos-duration="3000">
+            data-aos-duration="1500">
             <div
               style={{ background: "#F2F2F2", borderRadius: "20px" }}
               className="px-sm-4 px-2 pt-sm-4 pt-2 position-relative w_sm_75 w_xsm_100 w_lg_100 mx-auto ">
@@ -33,7 +33,7 @@ function About() {
           <div
             className="col-lg-6 mt-4 mt-lg-0"
             data-aos="fade-left"
-            data-aos-duration="3000">
+            data-aos-duration="1500">
             <div className="ps-lg-4 d-flex flex-column justify-content-end h-100">
               <p className="ff_jakarta fw-semibold fs_xl text_blue z_index1">
                 About Us

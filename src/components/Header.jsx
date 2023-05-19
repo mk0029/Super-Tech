@@ -21,8 +21,8 @@ function Header(props) {
         className="navBar "
         data-aos="fade-down"
         data-aos-easing="ease-out"
-        data-aos-delay="2000"
-        data-aos-duration="2000"
+        data-aos-delay="1500"
+        data-aos-duration="1500"
       >
         <div className="  m-0 m-sm-auto">
           <nav className=" nav_bg">
@@ -52,9 +52,9 @@ function Header(props) {
                   <li className="z_index_123 ">
                     <div className="dropdown transition300">
                       <button
-                        className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
+                        className={`dropbtn fw-normal fs_sm ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
                       >
-                        Our Services{" "}
+                        Our Services
                         <svg
                           className="ms-2"
                           width="12"
@@ -70,7 +70,7 @@ function Header(props) {
                         </svg>
                       </button>
                       <div
-                        class="dropdown-content transition300  "
+                        class="dropdown-content fs_sm transition300  "
                         style={{ zIndex: "123" }}
                       >
                         <Link to="/Services">
@@ -112,16 +112,18 @@ function Header(props) {
                     </div>
                   </li>
                   <li>
-                    <span
-                      className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 position-relative `}
-                    >
-                      <a
-                        href="#Contact"
-                        className="text-white fs_sm ff_jakarta "
+                    <Link to="/">
+                      <span
+                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300 position-relative `}
                       >
-                        Contact Us
-                      </a>
-                    </span>
+                        <a
+                          href="#Contact"
+                          className="text-white fs_sm ff_jakarta "
+                        >
+                          Contact Us
+                        </a>
+                      </span>
+                    </Link>
                   </li>
                 </ul>
                 <a
@@ -129,7 +131,6 @@ function Header(props) {
                   href="#"
                 >
                   <span className="Animation_CallIcon">
-                    {" "}
                     <svg
                       className="me-2 "
                       width="24"
@@ -144,10 +145,12 @@ function Header(props) {
                       />
                     </svg>
                   </span>
-                  <span className="ps-1 ff_jakarta fw-semibold fs_sm">
-                    {" "}
+                  <a
+                    href="tel: 561-255-2407"
+                    className="ps-1 ff_jakarta fw-semibold fs_sm text-white"
+                  >
                     561-255-2407
-                  </span>
+                  </a>
                 </a>
                 <div
                   style={{ zIndex: "1000" }}
@@ -184,9 +187,9 @@ function Header(props) {
                     <li className="z_index_123 ">
                       <div className="dropdown transition300">
                         <button
-                          className={`dropbtn ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
+                          className={`dropbtn fs_sm  fw-normal ff_jakarta transition300 ${props.Nav_TAb_BottomSecond} `}
                         >
-                          Our Services{" "}
+                          Our Services
                           <svg
                             className="ms-2"
                             width="12"
@@ -202,7 +205,7 @@ function Header(props) {
                           </svg>
                         </button>
                         <div
-                          className="dropdown-content transition300  "
+                          className="dropdown-content fs_sm transition300  "
                           style={{ zIndex: "123" }}
                         >
                           <Link to="/Services">
@@ -244,17 +247,18 @@ function Header(props) {
                       </div>
                     </li>
                     <li>
-                      {" "}
-                      <span
-                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}
-                      >
-                        <a
-                          className="text-white fs_sm ff_jakarta"
-                          href="#Contact"
+                      <Link to="/">
+                        <span
+                          className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}
                         >
-                          Contact Us
-                        </a>
-                      </span>
+                          <a
+                            className="text-white fs_sm ff_jakarta"
+                            href="#Contact"
+                          >
+                            Contact Us
+                          </a>
+                        </span>
+                      </Link>
                     </li>
                   </ul>
                 </div>

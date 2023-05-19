@@ -10,7 +10,8 @@ const ServicesSection = (props) => {
         </div>
         <Container className="py-sm-4">
           <div
-            data-aos-duration="2000"
+            data-aos-duration="1500"
+            data-aos-delay="1000"
             data-aos="zoom-in"
             className="d-flex flex-column align-items-sm-center py-5 mt-xl-5 mb-xl-4">
             <h3 className=" fw-semibold fs_2x8l text_black ff_jakarta mb-2 pb-1 text-start ">
@@ -28,7 +29,8 @@ const ServicesSection = (props) => {
               xs={12}
               className="object_fitCover"
               data-aos="zoom-in"
-              data-aos-duration="2000">
+              data-aos-duration="1500"
+              data-aos-delay="1000">
               <div className="pad_21_20 bg_F2 br_20 h-100 box_shadowHover">
                 <img
                   className="w-100 br_10 h-100"
@@ -39,7 +41,9 @@ const ServicesSection = (props) => {
             </Col>
             <Col
               lg={6}
-              data-aos-duration="2000"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
+              data-aos-offset="100"
               data-aos="fade-left"
               className="pt-4 pt-lg-0">
               <div className="ps-lg-5">
@@ -56,7 +60,8 @@ const ServicesSection = (props) => {
             <Col
               lg={6}
               className="pt-4 pt-lg-2"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
               data-aos="fade-right">
               <div className="pe-lg-4">
                 <h3 className="ff_jakarta fw-semibold text_black lh_120 fs_4x4l mb-1 pb-2 text-lg-start text-sm-center text-capitalize">
@@ -68,7 +73,7 @@ const ServicesSection = (props) => {
               </div>
             </Col>
             <Col
-              data-aos-duration="2000"
+              data-aos-duration="1500"
               data-aos="fade-left"
               lg={6}
               md={8}

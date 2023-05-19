@@ -1,5 +1,6 @@
 import React from "react";
 import { ourServisesBox } from "../Pagejs/DataMap";
+import { Link } from "react-router-dom";
 function Ourservices() {
   return (
     <>
@@ -12,7 +13,7 @@ function Ourservices() {
             <h2
               className="text-center text_black ff_jakarta fw-semibold fs_4x4l  text-capitalize"
               data-aos="fade-down"
-              data-aos-duration="3000">
+              data-aos-duration="1500">
               our services
             </h2>
           </div>
@@ -21,32 +22,35 @@ function Ourservices() {
               {ourServisesBox.map((data) => {
                 return (
                   <div
-                    className="col-xl-3 col-lg-4 col-sm-6  mb-4 "
+                    className="col-xl-3 col-lg-4 col-sm-6  mb-md-4 mb-3 "
                     data-aos="zoom-in"
                     data-aos-delay={data.Delay}
-                    data-aos-duration="3000">
-                    <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
-                      <span className=" d-inline-block pb-2 mb-1 transition300">
-                        <div className="svg transition300 d-inline-block ">
-                          {data.svgImage}
-                        </div>
-                      </span>
-                      <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
-                        {data.Heading}
-                      </h3>
-                      <p
-                        style={{ maxLines: "230px" }}
-                        className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0 transition300">
-                        {data.peragraph}
-                      </p>
-                    </div>
+                    data-aos-duration="1000">
+                    <Link to={data.PageLink}>
+                      {" "}
+                      <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
+                        <span className=" d-inline-block pb-2 mb-1 transition300">
+                          <div className="svg transition300 d-inline-block ">
+                            {data.svgImage}
+                          </div>
+                        </span>
+                        <h3 className=" ff_jakarta fs_md fw-semibold text_black  transition300">
+                          {data.Heading}
+                        </h3>
+                        <p
+                          style={{ maxLines: "230px" }}
+                          className="mt-2 ff_jakarta fs_sm fw-normal text_black opacity08 mb-0 transition300">
+                          {data.peragraph}
+                        </p>
+                      </div>
+                    </Link>
                   </div>
                 );
               })}
               <span
                 className=" d-inline-block pt-md-5 pt-4 text-center mb-md-3"
                 data-aos="fade-up"
-                data-aos-duration="3000">
+                data-aos-duration="1500">
                 <em className=" ff_jakarta fs_md fw-med text_black opacity08">
                   Make informed IT choices that will benefit your business.
                 </em>

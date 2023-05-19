@@ -464,7 +464,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.min_vh_40 {
+.min_Hight_Custom {
   min-height: 40vh;
 }
 .maxWidth_780 {
@@ -693,6 +693,9 @@
   }
 }
 @media (min-width: 992px) {
+  .min_Hight_Custom {
+    min-height: 400px;
+  }
   .Nav_TAb_Bottom::after {
     content: "";
     position: absolute;
@@ -796,8 +799,8 @@
   }
 }
 @media (min-width: 1200px) {
-  .min_vh_70 {
-    min-height: 70vh !important;
+  .min_Hight_Custom {
+    min-height: 70vh;
   }
   .min_vh_100 {
     min-height: 100vh !important;
