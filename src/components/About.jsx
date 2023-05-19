@@ -5,7 +5,9 @@ import vector from "../assets/img/svg/about-vector.svg";
 
 function About() {
   return (
-    <section className="py-4 py-sm-5 overflow-hidden position-relative">
+    <section
+      id="About"
+      className="py-4 py-sm-5 overflow-hidden position-relative">
       <img
         className="position-absolute about_vector_posi d-none d-sm-flex"
         src={vector}
