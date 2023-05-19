@@ -193,37 +193,51 @@ function Header(props) {
                         <div
                           className="dropdown-content fs_sm transition300  "
                           style={{ zIndex: "123" }}>
-                          <Link to="/Services">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/Services">
                             <span className="d-block ff_jakarta text-white fw-normal fs_sm opacity08 opacity_1 transition300 ">
                               Security
                             </span>
                           </Link>
-                          <Link to="/cloud">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/cloud">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Cloud Services
                             </span>
                           </Link>
-                          <Link to="/SdWan">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/SdWan">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               SD-WAN
                             </span>
                           </Link>
-                          <Link to="/CCaaS">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/CCaaS">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               CCaaS
                             </span>
                           </Link>
-                          <Link to="/UCaaS">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/UCaaS">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               UCaaS
                             </span>
                           </Link>
-                          <Link to="/Connectivity">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/Connectivity">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Connectivity
                             </span>
                           </Link>
-                          <Link to="/Colocation">
+                          <Link
+                            onClick={() => setNavShow(!navShow)}
+                            to="/Colocation">
                             <span className="ff_jakarta d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  ">
                               Colocation
                             </span>
@@ -232,16 +246,15 @@ function Header(props) {
                       </div>
                     </li>
                     <li>
-                      <Link to="/">
-                        <span
-                          className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}>
-                          <a
-                            className="text-white fs_sm ff_jakarta"
-                            href="#Contact">
-                            Contact Us
-                          </a>
-                        </span>
-                      </Link>
+                      <span
+                        onClick={() => setNavShow(!navShow)}
+                        className={`d-block text-white fw-normal fs_sm opacity08 opacity_1 transition300  position-relative`}>
+                        <a
+                          className="text-white fs_sm ff_jakarta"
+                          href="#Contact">
+                          Contact Us
+                        </a>
+                      </span>
                     </li>
                   </ul>
                 </div>
