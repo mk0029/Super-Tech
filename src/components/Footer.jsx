@@ -155,7 +155,7 @@ const Footer = () => {
                     </h3>
                     <ul className="ps-0">
                       <li className="pb_6">
-                        <Link to="/Trems-and-Condition">
+                        <Link to="/Terms-and-Condition">
                           <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
                             Terms and Conditions{" "}
                           </span>

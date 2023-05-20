@@ -5,7 +5,6 @@ function PrivaryPolicy() {
   return (
     <>
       <section className="py-5 position-relative">
-        {" "}
         <div className="position-absolute top-0 end-0 max_width308 d-none d-md-block">
           <img className="w-100" src={sideLineImg} alt="lines" />
         </div>
@@ -13,7 +12,6 @@ function PrivaryPolicy() {
           <div className="py-lg-5 my-md-4">
             <div className="row justify-content-center">
               <div className="col-lg-9">
-                {" "}
                 <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
                   This Privacy Policy describes how we collect, use, and
                   disclose your personal information when you visit our website
@@ -55,12 +53,11 @@ function PrivaryPolicy() {
                 </h2>
                 <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
                   <span className="d-block">
-                    {" "}
                     Cookies are files with small amount of data that is commonly
                     used an anonymous unique identifier. These are sent to your
                     browser from the website that you visit and are stored on
                     your computer’s hard drive.
-                  </span>{" "}
+                  </span>
                   Our website uses these “cookies” to collection information and
                   to improve our Service. You have the option to either accept
                   or refuse these cookies, and know when a cookie is being sent
@@ -76,16 +73,16 @@ function PrivaryPolicy() {
                 </p>
                 <ul className="mb-0">
                   <li className="ff_jakarta fw-normal fs_sm text_black opacity08 list_style_type">
-                    To facilitate our Service;{" "}
+                    To facilitate our Service;
                   </li>
                   <li className="ff_jakarta fw-normal fs_sm text_black opacity08 list_style_type">
-                    To provide the Service on our behalf;{" "}
+                    To provide the Service on our behalf;
                   </li>
                   <li className="ff_jakarta fw-normal fs_sm text_black opacity08 list_style_type">
-                    To perform Service-related services or;{" "}
+                    To perform Service-related services or;
                   </li>
                   <li className="ff_jakarta fw-normal fs_sm text_black opacity08 list_style_type">
-                    To assist us in analyzing how our Service is used.{" "}
+                    To assist us in analyzing how our Service is used.
                   </li>
                 </ul>
                 <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0">
@@ -129,7 +126,7 @@ function PrivaryPolicy() {
                   delete this from our servers. If you are a parent or guardian
                   and you are aware that your child has provided us with
                   personal information, please contact us so that we will be
-                  able to do necessary actions.{" "}
+                  able to do necessary actions.
                 </p>
                 <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                   Changes to This Privacy Policy

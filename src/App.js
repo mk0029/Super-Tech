@@ -34,7 +34,7 @@ function App() {
           <Route path="/Connectivity" element={<Conectivite />} />
           <Route path="/Colocation" element={<Collection />} />
           <Route path="/Privacy-Policy" element={<Policy />} />
-          <Route path="/Trems-and-Condition" element={<TremCondition />} />
+          <Route path="/Terms-and-Condition" element={<TremCondition />} />
         </Routes>
       </div>
     </>
