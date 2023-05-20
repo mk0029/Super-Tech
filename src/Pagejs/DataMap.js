@@ -17,7 +17,7 @@ export const ourServisesBox = [
     Delay: "100",
     Heading: "Security",
     peragraph: "Cybersecurity solutions that make sense for business",
-    PageLink: "/Services",
+    PageLink: "/Security",
   },
   {
     svgImage: (
