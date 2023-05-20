@@ -12,8 +12,11 @@ function PrivaryPolicy() {
           <div className="py-lg-5 my-md-4">
             <div className="row justify-content-center">
               <div className="col-lg-9">
-                <div>
-                  {" "}
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  data-aos-delay="200">
                   <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
                     This Privacy Policy describes how we collect, use, and
                     disclose your personal information when you visit our
@@ -29,7 +32,10 @@ function PrivaryPolicy() {
                     Policy.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Information Collection and Use
                   </h2>
@@ -41,7 +47,10 @@ function PrivaryPolicy() {
                     we collect will be used to contact or identify you.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Log Data
                   </h2>
@@ -55,7 +64,10 @@ function PrivaryPolicy() {
                     statistics.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Cookies
                   </h2>
@@ -74,7 +86,10 @@ function PrivaryPolicy() {
                     Service.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Service Providers
                   </h2>
@@ -104,7 +119,10 @@ function PrivaryPolicy() {
                     information for any other purpose.
                   </p>{" "}
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Security
                   </h2>
@@ -117,7 +135,10 @@ function PrivaryPolicy() {
                     cannot guarantee its absolute security.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Links to Other Sites
                   </h2>
@@ -131,7 +152,10 @@ function PrivaryPolicy() {
                     or practices of any third-party sites or services.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Children’s Privacy
                   </h2>
@@ -146,7 +170,10 @@ function PrivaryPolicy() {
                     that we will be able to do necessary actions.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Changes to This Privacy Policy
                   </h2>
@@ -158,7 +185,10 @@ function PrivaryPolicy() {
                     immediately, after they are posted on this page.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Contact Us
                   </h2>

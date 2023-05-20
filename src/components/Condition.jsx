@@ -13,14 +13,22 @@ function Condition() {
           <div className="py-lg-5 my-md-4">
             <div className="row justify-content-center">
               <div className="col-md-9">
-                {" "}
-                <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
-                  carefully before using the services provided by Supertech IT
-                  Consulting. By accessing or using our services, you agree to
-                  be bound by these Terms. If you do not agree with any part of
-                  these Terms, you may not use our services.
-                </p>
-                <div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  data-aos-delay="1000">
+                  <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
+                    carefully before using the services provided by Supertech IT
+                    Consulting. By accessing or using our services, you agree to
+                    be bound by these Terms. If you do not agree with any part
+                    of these Terms, you may not use our services.
+                  </p>
+                </div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     General Terms
                   </h2>
@@ -31,7 +39,10 @@ function Condition() {
                     the Company and the Client.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Client Obligations
                   </h2>
@@ -51,7 +62,10 @@ function Condition() {
                     Client and cannot guarantee specific results or outcomes.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Fees and Payment
                   </h2>
@@ -66,7 +80,10 @@ function Condition() {
                     subject to late fees or suspension of services.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Intellectual Property
                   </h2>
@@ -81,7 +98,10 @@ function Condition() {
                     property without prior written consent.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Confidentiality
                   </h2>
@@ -93,7 +113,10 @@ function Condition() {
                     required by law.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Limitation of Liability
                   </h2>
@@ -109,7 +132,10 @@ function Condition() {
                     of or relating to the services or the use of the services.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Indemnification
                   </h2>
@@ -121,7 +147,10 @@ function Condition() {
                     these Terms.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Termination
                   </h2>
@@ -132,7 +161,10 @@ function Condition() {
                     termination.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Governing Law and Jurisdiction
                   </h2>
@@ -143,7 +175,10 @@ function Condition() {
                     of the courts in .
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Amendments
                   </h2>
@@ -154,7 +189,10 @@ function Condition() {
                     website or providing notice to the Client.
                   </p>
                 </div>
-                <div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
                   <h2 className="ff_jakarta fw-semibold fs_2x8l text_black mb-0 mt-4 pt-2">
                     Contact Information
                   </h2>
