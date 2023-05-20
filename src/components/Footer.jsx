@@ -155,18 +155,21 @@ const Footer = () => {
                     </h3>
                     <ul className="ps-0">
                       <li className="pb_6">
-                        <a
-                          className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Terms and Conditions{" "}
-                        </a>
+                        <Link to="/Trems-and-Condition">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            Terms and Conditions{" "}
+                          </span>
+                        </Link>
                       </li>
                       <li className="pb_6">
+                        <Link to="/Privacy-Policy">
+                          <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                            Privacy Policy
+                          </span>
+                        </Link>
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#">
-                          Privacy Policy
-                        </a>
+                          href="#"></a>
                       </li>
                     </ul>
                   </div>

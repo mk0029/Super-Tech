@@ -13,8 +13,8 @@ import Conectivite from "./Pagejs/Conectivite";
 import Collection from "./Pagejs/Collection";
 import { useEffect } from "react";
 import BackTop from "./components/BackTop";
-import PrivaryPolicy from "./components/PrivaryPolicy";
-import Condition from "./components/Condition";
+import Policy from "./Pagejs/Policy";
+import TremCondition from "./Pagejs/TremCondition";
 
 function App() {
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div className=" overflow-hidden">
-        {/* <BackTop />
+        <BackTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Security" element={<Services />} />
@@ -33,9 +33,9 @@ function App() {
           <Route path="/UCaaS" element={<UCaaS />} />
           <Route path="/Connectivity" element={<Conectivite />} />
           <Route path="/Colocation" element={<Collection />} />
-        </Routes> */}
-        <PrivaryPolicy />
-        <Condition />
+          <Route path="/Privacy-Policy" element={<Policy />} />
+          <Route path="/Trems-and-Condition" element={<TremCondition />} />
+        </Routes>
       </div>
     </>
   );

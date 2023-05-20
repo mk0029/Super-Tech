@@ -1,18 +1,19 @@
 import React from "react";
+import Condition from "../components/Condition";
 import ServicesHero from "../components/ServicesHero";
 import PrivacyPolicyBg from "../assets/img/webp/Privecypolicy.webp";
-import PrivaryPolicy from "../components/PrivaryPolicy";
 import Footer from "../components/Footer";
 
-function Policy() {
-  const Heading = "Privacy Policy ";
+function TremCondition() {
+  const Heading = "Terms And Conditions ";
   return (
     <>
+      {" "}
       <ServicesHero heroHeading={Heading} heroBG={PrivacyPolicyBg} />
-      <PrivaryPolicy />
+      <Condition />
       <Footer />
     </>
   );
 }
 
-export default Policy;
+export default TremCondition;

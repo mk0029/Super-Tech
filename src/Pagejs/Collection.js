@@ -1,6 +1,5 @@
 import React from "react";
 import ServicesHero from "../components/ServicesHero";
-import securityhero from "../assets/img/webp/securityHero_bg.webp";
 import ServicesSection from "../components/ServicesSection";
 import collectionImg1 from "../assets/img/webp/colocationSection1.webp";
 import collectionImg2 from "../assets/img/webp/colocationSection2.webp";

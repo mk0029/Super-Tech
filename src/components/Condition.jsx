@@ -1,13 +1,18 @@
 import React from "react";
+import sideLineImg from "../assets/img/webp/section_topRight_mg.webp";
 
 function Condition() {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5 position-relative">
+        {" "}
+        <div className="position-absolute top-0 end-0 max_width308 d-none d-md-block">
+          <img className="w-100" src={sideLineImg} alt="lines" />
+        </div>
         <div className="container">
-          <div className="py-md-5 my-4">
+          <div className="py-lg-5 my-md-4">
             <div className="row justify-content-center">
-              <div className="col-9">
+              <div className="col-md-9">
                 {" "}
                 <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
                   carefully before using the services provided by Supertech IT
