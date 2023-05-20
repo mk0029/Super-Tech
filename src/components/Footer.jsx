@@ -28,7 +28,7 @@ const Footer = () => {
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                   sm={3}
-                  xs={6}
+                  xs={7}
                   className="d-flex justify-content-lg-center">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
@@ -63,18 +63,21 @@ const Footer = () => {
                       </h3>
                       <ul className="ps-0">
                         <li className="pb_6">
-                          <a
-                            className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                            href="#">
-                            Terms and Conditions{" "}
-                          </a>
+                          <Link to="/Terms-and-Condition">
+                            <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                              Terms and Conditions{" "}
+                            </span>
+                          </Link>
                         </li>
                         <li className="pb_6">
+                          <Link to="/Privacy-Policy">
+                            <span className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 ">
+                              Privacy Policy
+                            </span>
+                          </Link>
                           <a
                             className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                            href="#">
-                            Privacy Policy
-                          </a>
+                            href="#"></a>
                         </li>
                       </ul>
                     </div>
@@ -84,7 +87,7 @@ const Footer = () => {
                   data-aos="zoom-in"
                   data-aos-duration="2500"
                   sm={4}
-                  xs={6}
+                  xs={5}
                   className="d-flex justify-content-lg-end justify-content-sm-center">
                   <div>
                     <h3 className=" fw-semibold fs_sm lh_150 text-white ff_Montserrat mb-1 pb-2">
@@ -147,6 +150,7 @@ const Footer = () => {
                 <Col
                   data-aos="zoom-in"
                   data-aos-duration="3000"
+                  xs={7}
                   sm={5}
                   className="d-sm-flex justify-content-sm-end d-none">
                   <div>
