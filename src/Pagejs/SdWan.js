@@ -10,7 +10,7 @@ function SdWan() {
   const Heading = "Software Defined - Wide Area Network";
   const sectionHeading = "Improve Everything in a Flash";
   const secPara =
-    "Make life easier with zero-touch deployment, improved application performance and centralized management. Software is driving the innovation engine in the networking world to make it more agOile, flexible, and less expensive.";
+    "Make life easier with zero-touch deployment, improved application performance and centralized management. Software is driving the innovation engine in the networking world to make it more agile, flexible, and less expensive.";
   const firstPartHeading = "Single Pane of Glass";
   const firstPartpara =
     "Software Defined – Wide Area Networks (SD-WAN) are the evolution for agile, growing businesses. It routes data around faulty connections and congestion. It uses minimal hardware to create a seamless user experience. The network can be managed centrally through a single pane of glass. Connect branch offices to headquarters easily while reducing costs. Create a network for your single location or remote worker’s offices and spaces. Implement security in all communications and data transfers. You can create a dedicated network within the organization using public and private internet.";

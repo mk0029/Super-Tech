@@ -11,7 +11,7 @@ function UCaaS() {
   const Heading = "UCaaS";
   const sectionHeading = "Camaraderie is Contagious";
   const secPara =
-    "Enhance your organizational efficiency and your customer experience with advanced voice, messaging and collaborative communications. UCaaS products offer an opportunity to work from anywhere and can integrate into applications you are already using.";
+    "Enhance your organizational efficiency and your employee's experience with advanced voice, messaging and collaborative communications. UCaaS products offer an opportunity to work from anywhere and can integrate into applications you are already using.";
   const firstPartHeading = "Teamwork Makes the Dreamwork";
   const firstPartpara =
     "UCaaS or Unified Communications as a Service has really caught on. Migrating to a UCaaS product that works in the cloud lowers total cost of ownership. It is continually growing and can increase collaboration efforts by 100%. It can also reduce costs by 30% or more. On-premises phone systems are no longer the sole solution. As clients move to the cloud, their approach revolves around optimizing enterprise software investments through integration. Choosing the right partner with native integrations is central to maximizing eﬃciencies and realizing business beneﬁts.";
