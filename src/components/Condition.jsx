@@ -19,7 +19,7 @@ function Condition() {
                   data-aos-duration="1500"
                   data-aos-delay="1000">
                   <p className="ff_jakarta fw-normal fs_sm text_black opacity08 mb-0 pt-2 mt-1">
-                    carefully before using the services provided by Supertech IT
+                    Carefully before using the services provided by Supertech IT
                     Consulting. By accessing or using our services, you agree to
                     be bound by these Terms. If you do not agree with any part
                     of these Terms, you may not use our services.

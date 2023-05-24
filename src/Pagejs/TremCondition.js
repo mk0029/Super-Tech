@@ -1,7 +1,7 @@
 import React from "react";
 import Condition from "../components/Condition";
 import ServicesHero from "../components/ServicesHero";
-import PrivacyPolicyBg from "../assets/img/webp/Privecypolicy.webp";
+import PrivacyPolicyBg from "../assets/img/webp/TremsandCondition.webp";
 import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 
