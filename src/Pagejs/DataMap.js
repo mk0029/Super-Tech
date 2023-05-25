@@ -37,7 +37,7 @@ export const ourServisesBox = [
     Delay: "200",
     Heading: "Cloud Services",
     peragraph: "Improve business operations by migrating to cloud services",
-    PageLink: "/cloude",
+    PageLink: "/cloud",
   },
   {
     svgImage: (
