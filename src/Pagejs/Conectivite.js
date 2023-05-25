@@ -17,7 +17,7 @@ function Conectivite() {
 
   const secondartHeading = "Increase the Odds to Your Favor";
   const secondPartpara =
-    "When it is time to assess your connectivity, quality and speed utilizing a combination of software services, we will get it right for you. Connectivity is highly competitive in the marketplace. Let use valuate your needs and find a solution that can be customized as your connectivity and business demands grow. You should explore options from time to time to ensure you are getting the fastest, most reliable connection speeds with the best value.";
+    "When it is time to assess your connectivity, quality and speed utilizing a combination of software services, we will get it right for you. Connectivity is highly competitive in the marketplace. Let us evaluate your needs and find a solution that can be customized as your connectivity and business demands grow. You should explore options from time to time to ensure you are getting the fastest, most reliable connection speeds with the best value.";
 
   return (
     <div>
