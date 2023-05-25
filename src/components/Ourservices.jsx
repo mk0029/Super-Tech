@@ -26,7 +26,7 @@ function Ourservices() {
                     data-aos="zoom-in"
                     data-aos-delay={data.Delay}
                     data-aos-duration="1000">
-                    <Link target="_blank" to={data.PageLink}>
+                    <Link to={data.PageLink}>
                       {" "}
                       <div className="text-center bg-white px-3  py-5 Ourservices_Boxes h-100 transition300">
                         <span className=" d-inline-block pb-2 mb-1 transition300">
