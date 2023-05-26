@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from "react";
-function Loader(props) {
+function LoaderHome() {
   const [loder, setloader] = useState(false);
   useEffect(() => {
     setloader(true);
     setTimeout(() => {
       setloader(false);
-    }, props.timeOut);
+    }, 2700);
   }, []);
   {
     if (loder === true) {
-      document.body.style.overflow = "hidden";
-      document.documentElement.scrollTop = 0;
+      document.body.classList.add("overflow-hidden");
     } else {
-      document.body.style.overflow = "initial";
-      document.documentElement.scrollTop = 0;
+      document.body.classList.remove("overflow-hidden");
     }
   }
   return (
@@ -35,4 +33,4 @@ function Loader(props) {
   );
 }
 
-export default Loader;
+export default LoaderHome;

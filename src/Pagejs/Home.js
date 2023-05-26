@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Loader from "../components/Loader";
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import LoaderHome from "../components/LoaderHome";
 
 function Home({ contactRef }) {
   let router = useLocation();
@@ -26,7 +27,7 @@ function Home({ contactRef }) {
   }, [scrollValue, router.hash]);
   return (
     <div>
-      <Loader timeOut="2700" />
+      <LoaderHome />
       <Hero />
       <About />
       <Ourservices />
