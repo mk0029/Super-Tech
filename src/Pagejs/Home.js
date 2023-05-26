@@ -7,8 +7,23 @@ import About from "../components/About";
 import Choose from "../components/Choose";
 import Footer from "../components/Footer";
 import Loader from "../components/Loader";
+import { useEffect, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 
-function Home() {
+function Home({ contactRef }) {
+  let router = useLocation();
+  const [scrollValue, setScrollValue] = useState(false);
+  useEffect(() => {
+    setScrollValue(true);
+    if (scrollValue && router.hash) {
+      console.log("dsdfsdfsdf", scrollValue);
+      contactRef &&
+        contactRef.current &&
+        contactRef.current.scrollIntoView({
+          behaviour: "smooth",
+        });
+    }
+  }, [scrollValue, router.hash]);
   return (
     <div>
       <Loader timeOut="2700" />
@@ -16,7 +31,7 @@ function Home() {
       <About />
       <Ourservices />
       <Choose />
-      <Contact />
+      <Contact contactRef={contactRef} />
       <Footer />
     </div>
   );

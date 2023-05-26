@@ -11,21 +11,25 @@ import Ccaas from "./Pagejs/Ccaas";
 import UCaaS from "./Pagejs/UCaaS";
 import Conectivite from "./Pagejs/Conectivite";
 import Collection from "./Pagejs/Collection";
-import { useEffect } from "react";
-import BackTop from "./components/BackTop";
+import { useEffect, useRef, useState } from "react";
+// import BackTop from "./components/BackTop";
 import Policy from "./Pagejs/Policy";
 import TremCondition from "./Pagejs/TremCondition";
 
 function App() {
+  const contactRef = useRef(null);
+  console.log("locationlocationlocation", contactRef);
+
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
+
   return (
     <>
       <div className=" overflow-hidden">
-        <BackTop />
+        {/* <BackTop /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home contactRef={contactRef} />} />
           <Route path="/Security" element={<Services />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/SdWan" element={<SdWan />} />

@@ -1,9 +1,9 @@
 import React from "react";
 import contact from "../assets/img/webp/contectus-img.webp";
 
-function Contact() {
+function Contact({ contactRef }) {
   return (
-    <section id="Contact" className="py-5">
+    <section ref={contactRef} id="contact" className="py-5">
       <div className="container">
         <div className="pb-lg-5 mb-xxl-5">
           {" "}
