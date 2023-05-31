@@ -18,7 +18,9 @@ import TremCondition from "./Pagejs/TremCondition";
 
 function App() {
   const contactRef = useRef(null);
+  const aboutRef = useRef(null);
   console.log("locationlocationlocation", contactRef);
+  console.log("locationlocationlocation", aboutRef);
 
   useEffect(() => {
     AOS.init({ once: true });
@@ -29,7 +31,10 @@ function App() {
       <div className=" overflow-hidden">
         {/* <BackTop /> */}
         <Routes>
-          <Route path="/" element={<Home contactRef={contactRef} />} />
+          <Route
+            path="/"
+            element={<Home contactRef={contactRef} aboutRef={aboutRef} />}
+          />
           <Route path="/Security" element={<Services />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/SdWan" element={<SdWan />} />

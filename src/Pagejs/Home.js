@@ -11,25 +11,28 @@ import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import LoaderHome from "../components/LoaderHome";
 
-function Home({ contactRef }) {
-  let router = useLocation();
-  const [scrollValue, setScrollValue] = useState(false);
+function Home({ contactRef, aboutRef }) {
+  let location = useLocation();
+
   useEffect(() => {
-    setScrollValue(true);
-    if (scrollValue && router.hash) {
-      console.log("dsdfsdfsdf", scrollValue);
-      contactRef &&
-        contactRef.current &&
-        contactRef.current.scrollIntoView({
-          behaviour: "smooth",
-        });
+    // IF LOCATION HASH URL IS EQUAL TO CONTACT THEN SCROLL TO CONTACT SECTION
+    if (location.hash === "#contact" && contactRef.current) {
+      contactRef.current.scrollIntoView({
+        behaviour: "smooth",
+      });
     }
-  }, [scrollValue, router.hash]);
+
+    if (location.hash === "#About" && aboutRef.current) {
+      aboutRef.current.scrollIntoView({
+        behaviour: "smooth",
+      });
+    }
+  }, [location.hash]);
   return (
     <div>
       <LoaderHome />
       <Hero />
-      <About />
+      <About aboutRef={aboutRef} />
       <Ourservices />
       <Choose />
       <Contact contactRef={contactRef} />

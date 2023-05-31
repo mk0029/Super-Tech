@@ -45,14 +45,14 @@ const Footer = () => {
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#About">
+                          href="/#About">
                           About us
                         </a>
                       </li>
                       <li className="pb_6">
                         <a
                           className="ff_jakarta fw-normal fs_sm lh_150 text-white opacity08 "
-                          href="#Contact">
+                          href="/#contact">
                           Contact us
                         </a>
                       </li>

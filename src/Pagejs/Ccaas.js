@@ -12,7 +12,7 @@ function Ccaas() {
   const Heading = "CCaaS";
   const sectionHeading = "A Platform to Build On";
   const secPara =
-    "Take your CX to the next level. Effective communication drives revenue and capitalizes on a reduced cost structure while integrating with 3rd party applications. This is the way to grow your business with customer experience leading the way..";
+    "Take your CX to the next level. Effective communication drives revenue and capitalizes on a reduced cost structure while integrating with 3rd party applications. This is the way to grow your business with customer experience leading the way.";
   const firstPartHeading = "Intelligence Creates Opportunity";
   const firstPartpara =
     "Contact Center as a Service (CCaas) is the premier way to run your business with efficiency while supporting growth and flexibility. It is the way to provide the best customer experience using routing, queuing, responsiveness, analytics, and consistency while utilizing phone, email or chat. This will enhance the CX. You can find your blind spots using a CCaaS product. As your consultant, we can help you find the solution that allows you to engage your customers on a personal level. This is critical with the increased autonomy that businesses are placing on the consumer in their URGENT time of need. If you want improved capability and robust features, CCaaS can help you minimize costs while maximizing revenue.";

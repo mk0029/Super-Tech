@@ -3,9 +3,10 @@ import aboutImg from "../assets/img/webp/IT.webp";
 import aboutSmall from "../assets/img/png/IT-Counsling-Bottom-Circle.png";
 import vector from "../assets/img/svg/about-vector.svg";
 
-function About() {
+function About({ aboutRef }) {
   return (
     <section
+      ref={aboutRef}
       id="About"
       className="py-4 py-sm-5 overflow-hidden position-relative">
       <img
